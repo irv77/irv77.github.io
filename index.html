@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <title>IRV77 Blanked</title>
+    <link rel="icon" href="favicon.ico">
+
+    <meta content="IRV77" property="og:title">
+    	<meta content="Voxonoly Studios proudly presents, one of the biggest, most updated gaming website... IRV77!" property="og:description">
+    	<meta content="https://irv77.github.io/" property="og:url">
+    	<meta content="https://raw.githubusercontent.com/irv77/irv77.github.io/main/logo.png" property="og:image">
+   	<meta content="#783335" data-react-helmet="true" name="theme-color">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --main-color: #713032;
+            --second-color: #955032;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            background: linear-gradient(to bottom, var(--main-color), var(--second-color)) var(--main-color);
+            overflow-y: auto;
+            display: block;
+            box-sizing: border-box;
+            word-break: break-word;
+        }
+
+        body {
+            min-height: 100vh;
+            border: 2px solid;
+            margin: 0;
+            display: flex;
+            color: #fff;
+            font-family: Georgia, serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 7%;
+            margin-bottom: 1vh;
+            font-size: 4vw;
+            font-family: 'Courier New', monospace;
+        }
+
+        span {
+            margin-bottom: 1vh;
+            font-size: 4vw;
+            font-family: 'Courier New', monospace;
+        }
+
+        p {
+            font-size: 1.3vw;
+        }
+
+        .text-align-center {
+            text-align: center;
+        }
+
+        main {
+            flex-direction: column;
+            flex-grow: 1;
+            margin: 15%;
+            margin-top: 50px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        .logo {
+            background-color: rgba(255, 255, 255, .05);
+            width: 25%;
+            border: 4px solid;
+            border-radius: 15px;
+            aspect-ratio: 1/1;
+        }
+
+        button {
+            width: 60%;
+            height: 5.5vw;
+            background: rgba(255,255,255,.1);
+            border: 3px solid #fff;
+            border-radius: 15px;
+            font-size: 4vw;
+            color: #fff;
+            font-family: 'Brush Script MT', cursive;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, .2);
+        }
+    </style>
+</head>
+<body>
+    <main class="text-align-center">
+        <div>
+            <img src="logo.png" class="logo">
+        </div>
+        <h1>IRV77 Redirect Page</h1><span id="countDown"></span>
+        <hr>
+        <p>Voxonoly Studios proudly presents, one of the biggest, most updated gaming website... IRV77!</p>
+        <br>
+        <br>
+        <br>
+        <div>
+            <button onclick="delayRedirect()">Click me to Redirect</button>
+        </div>
+        <script>
+            function delayRedirect(){
+                var count = 6;
+                setInterval(function(){
+                    count--;
+                    document.getElementById('countDown').innerHTML = count;
+                    if (count == 0) {
+                        window.location = 'https://irv77.netlify.app'; 
+                    }
+                },1000);
+            }
+            </script>
+    </main>
+    <a href="https://irv77.netlify.app/html/games/other/flashbacks/index.html" aria-label="Go to main website!">
+        <svg width="90" height="90" viewBox="0 0 250 250" style="fill:#fff;border:0;position:absolute;top:5px;right:5px" aria-hidden="true">
+            <path d="M 0 0 L 250 250 L 250 0 Z"></path>
+        </svg>
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="var(--main-color)"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-flame" style="border:0;position:absolute;top:5px;right:5px">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 12c2 -2.96 0 -7 -1 -8c0 3.038 -1.773 4.741 -3 6c-1.226 1.26 -2 3.24 -2 5a6 6 0 1 0 12 0c0 -1.532 -1.056 -3.94 -2 -5c-1.786 3 -2.791 3 -4 2z" />
+        </svg>
+    </a>
+</body>
