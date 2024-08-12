@@ -1,4 +1,4 @@
-![KRUATED PHEAR](.github/assets/banner.png)<br>
+![KRUATED PHEAR](.github/assets/header.png)<br>
  My personal huge gaming website made in early 2024.<br>
  Finally having the code being public again with having huge UI updates currently!
 
@@ -8,7 +8,7 @@
 <hr>
 
  ## Current Version
-[__v2.00.1__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
+[__v2.00.2__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
 
 <hr>
 
@@ -30,6 +30,8 @@
 - IRV77
 
 - Vulen Corp | [__Discord__](https://discord.gg/xuu8TnSY4b)
+
+- Outdated Website | [__Vul77__](https://vul77.web.app)
 
 <hr>
 
