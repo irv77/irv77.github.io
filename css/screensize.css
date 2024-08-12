@@ -1,0 +1,235 @@
+.weblogo {
+	background: url(/assets/images/logos/title-logo-mobile.png) no-repeat center;
+	background-size: contain;
+	height: 26vw;
+	width: 100vw;
+}
+
+h1 {
+	font-size: 5.5vw;
+}
+
+h2 {
+	font-size: 4.5vw;
+}
+
+p {
+	font-size: 2.5vw;
+}
+
+h1#title {
+	font-size: 3.5vw;
+}
+
+.play-button {
+	font-size: 9vw;
+	padding: 2vw 6vw;
+}
+
+section.changelog-entry {
+	margin-bottom: auto;
+	width: auto;
+}
+
+.changelog-entry ul li {
+	font-size: 2.75vw;
+}
+
+.recent-upd-container h2 {
+	font-size: 4.5vw;
+}
+
+.recent-upd-container h3 {
+	font-size: 3vw;
+}
+
+.features {
+	min-height: auto;
+	padding-bottom: 15vh;
+	padding-top: 5vh;
+}
+
+.features-title {
+	font-size: 10vw;
+}
+
+.point {
+	height: 24vw;
+	margin-left: 17.5vw;
+	margin-top: 14.5vw;
+	transform: scale(1.5);
+	width: 30vw;
+}
+
+.point:hover {
+	transform: scale(1.6);
+}
+
+.point-title {
+	font-size: 3.5vw;
+}
+
+.point-desc {
+	font-size: 1.8vw;
+}
+
+.mobilepoint {
+	margin-left: 0;
+}
+
+.infboxes {
+	padding-bottom: 4vh;
+	padding-top: 3vh;
+}
+
+.square {
+	margin: 1.5vw 7.5vw;
+	transform: scale(1.5);
+	width: 15%;
+}
+
+.intxtsml {
+	font-size: 1.1vw;
+}
+
+.about {
+	flex-direction: column;
+	padding: 10vw 0;
+}
+
+.about-content {
+	margin: 3vh 0;
+	padding: 2vw;
+	width: 75vw;
+}
+
+.about-title {
+	margin: 3vh 0;
+}
+
+#subtitle {
+	font-size: 3.5vw;
+}
+
+.credits-logo {
+	width: 24vw;
+}
+
+.system-link {
+	height: 22.5vw;
+	width: 40vw;
+}
+
+.system-title {
+	font-size: 4vw;
+}
+
+.system-desc {
+	font-size: 2vw;
+}
+
+.game-link {
+	height: 22vw;
+	padding: 1.5vw;
+	width: 18vw;
+}
+
+.game-title {
+	font-size: 2vw;
+}
+
+.game-desc {
+	font-size: 1.5vw;
+}
+
+#mySearch {
+	font-size: 2.25vw;
+	margin-top: 4vw;
+	width: 75%;
+}
+
+.searchbar.scrolled {
+	margin-top: 1.75vw;
+}
+
+.random {
+	width: 2.6vw;
+}
+
+.search {
+	width: 2.6vw;
+}
+
+.section-faq ul li {
+	margin-bottom: 2vw;
+}
+
+.section-faq .question {
+	font-size: 4vw;
+	padding: 2.5vw;
+	width: 110%;
+}
+
+.section-faq .answer {
+	font-size: 2.5vw;
+	width: 105%;
+}
+
+.section-faq .answer span {
+	padding: 2vw 4.5vw;
+}
+
+.changelog-entry {
+	margin-bottom: 5vw;
+	width: 90vw;
+}
+
+h3 {
+	font-size: 2.5vw;
+}
+
+button {
+	border-radius: 1.5vw;
+	font-size: 3.5vw;
+}
+
+.extras-button {
+	border: var(--theme) solid 0.5vw;
+	font-size: 5vw;
+	height: 10vw;
+	margin: 2.5vw;
+	width: 85vw;
+}
+
+.extras .inprogress {
+	height: 10vw;
+	margin: 2.5vw;
+	width: 85vw;
+}
+
+input {
+	font-size: 2vw;
+}
+
+.presets {
+	height: 4vw;
+	width: 4vw;
+}
+
+.error h1 {
+	font-size: 8vw;
+}
+
+.error h2 {
+	font-size: 3vw;
+}
+
+.error a {
+	font-size: 2.5vw;
+}
+
+.error img {
+	height: fit-content;
+	margin-right: 1vw;
+	width: 10vw;
+}

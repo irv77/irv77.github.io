@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body[data-theme="default"] {
+  --background: #1d0e1a;
+  --background-secondary: #600008;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #ffffff;
+  --text-secondary: #e5e5e5;
+  --theme: #cc4343;
+  --theme-secondary: #f18585;
+  --theme-tertiary: #f2cf09;
+}
+
+body[data-theme="classic"] {
+  --background: #0d011c;
+  --background-secondary: #080d51;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #d4d4d4;
+  --text-secondary: #9e9e9e;
+  --theme: #eaeaff;
+  --theme-secondary: #1e00b360;
+  --theme-tertiary: #f2cf09;
+}
+
+body[data-theme="light"] {
+  --background: #cccccc;
+  --background-secondary: #527fbf;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #ffffff;
+  --text-secondary: #d2d2d2;
+  --theme: #10e8ef;
+  --theme-secondary: #2e82f8;
+  --theme-tertiary: #23d2a3;
+}
+
+body[data-theme="dark"] {
+  --background: #000000;
+  --background-secondary: #242424;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #b89113;
+  --text-secondary: #8f690a;
+  --theme: #777d2d;
+  --theme-secondary: #c58b02;
+  --theme-tertiary: #b06f13;
+}
+
+body[data-theme="con"] {
+  --background: #17191d;
+  --background-secondary: #1b71d9;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #d0d0db;
+  --text-secondary: #f4f3ff;
+  --theme: #0cace6;
+  --theme-secondary: #2eabea;
+  --theme-tertiary: #f2cf09;
+}
+
+body[data-theme="sumpeach"] {
+  --background: #08253d;
+  --background-secondary: #b55e71;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #ffffff;
+  --text-secondary: #ff9a9a;
+  --theme: #e62323;
+  --theme-secondary: #ff7190;
+  --theme-tertiary: #cf296e;
+}
+
+body[data-theme="cansh"] {
+  --background: #19597d;
+  --background-secondary: #c0c017;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #de348c;
+  --text-secondary: #970e0e;
+  --theme: #f01039;
+  --theme-secondary: #e4dd1eb2;
+  --theme-tertiary: #f2cf09;
+}
+
+body[data-theme="rblue"] {
+  --background: #262033;
+  --background-secondary: #5a285a;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #bdb9a2;
+  --text-secondary: #fff5e3;
+  --theme: #a12fff;
+  --theme-secondary: #8642d9;
+  --theme-tertiary: #552f83;
+}
+
+body[data-theme="retro"] {
+  --background: #564542;
+  --background-secondary: #493635;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #edc3a1;
+  --text-secondary: #ffe6d6;
+  --theme: #58422f;
+  --theme-secondary: #edae7a;
+  --theme-tertiary: #c9a319;
+}
+
+body[data-theme="spill"] {
+  --background: #eec539;
+  --background-secondary: #e52a1a;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #007bff;
+  --text-secondary: #f0ebd9;
+  --theme: #16c53c;
+  --theme-secondary: #dc2f67;
+  --theme-tertiary: #f2cf09;
+}
+
+body[data-theme="darker"] {
+  --background: #000000;
+  --background-secondary: #161616;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #414141;
+  --text-secondary: #232323;
+  --theme: #363636;
+  --theme-secondary: #383838;
+  --theme-tertiary: #555555;
+}
+
+body[data-theme="fo"] {
+  --background: #872015;
+  --background-secondary: #bf2413;
+  --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
+  --page: linear-gradient(to bottom, var(--background-secondary), var(--background));
+  --text: #ffffff;
+  --text-secondary: #bbbbbb;
+  --theme: #dbdbdb;
+  --theme-secondary: #e3b865;
+  --theme-tertiary: #ffce1b;
+}
+
+body[data-theme="glitch"] {
+  --background: #3baf11;
+  --background-secondary: #0edc3057;
+  --home: url(/assets/images/glitch.png);
+  --page: url(/assets/images/glitch.png);
+  --text: #13a747a6;
+  --text-secondary: #06a80e82;
+  --theme: #19aa4ce1;
+  --theme-secondary: #0c6c0e8e;
+  --theme-tertiary: #278e358b;
+}
+
+body[data-theme="olds"] {
+  --background: black;
+  --background-secondary: darkred;
+  --home: var(--background);
+  --page: var(--background);
+  --text: red;
+  --text-secondary: darkred;
+  --theme: red;
+  --theme-secondary: maroon;
+  --theme-tertiary: maroon;
+}
+
+body[data-theme="hub"] {
+  --background: #000000;
+  --background-secondary: #ffa31a;
+  --home: var(--background);
+  --page: var(--background);
+  --text: #ffffff;
+  --text-secondary: #c6c6c6;
+  --theme: #808080;
+  --theme-secondary: #ffa31a;
+  --theme-tertiary: #ffa31a;
+}
+
+.noised {
+  background-attachment: fixed;
+  background-image: url(/assets/images/overlays/background.png);
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  mix-blend-mode: overlay;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.faded {
+  background-image: url(/assets/images/overlays/faded.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.content {
+  align-items: center;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(/assets/fonts/MokotoGlitchMark.ttf);
+}
+
+@font-face {
+  font-family: CopyR;
+  src: url(/assets/fonts/CopyrightViolation.ttf);
+}
+
+@font-face {
+  font-family: Bam;
+  src: url(/assets/fonts/Bamtang.ttf);
+}
+
+@font-face {
+  font-family: Vulen;
+  src: url(/assets/fonts/vulen.ttf);
+}

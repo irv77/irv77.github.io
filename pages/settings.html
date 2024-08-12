@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Settings | Kruated Phear</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/logos/favicon.png" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="/css/misc.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" media="screen and (max-width: 900px)" href="/css/screensize.css">
+  <link rel="stylesheet" media="screen and (max-height: 550px)" href="/css/screensize.css">
+  <!--Discord-->
+  <meta content="Kruated Phear | Settings" property="og:title">
+  <meta content="The interesting settings options of the website!" property="og:description">
+  <meta content="https://irv77.github.io/pages/settings.html" property="og:url">
+  <meta content="https://irv77.github.io/assets/images/logos/favicon.png" property="og:image">
+  <meta content="#9a1508" data-react-helmet="true" name="theme-color">
+</head>
+
+<body>
+  <div class="faded"></div>
+  <div class="noised"></div>
+  <div class="content">
+    <h1 class="settings-title">Settings</h1>
+    <img style="max-width: 100%; margin-bottom: 2vh;" src="/assets/images/overlays/divider.png" />
+    <div class="settings-content coverup">
+      <h2 class="coverup-child">Export Data</h2>
+      <hr class="coverup-child" />
+      <p class="coverup-child">Save and import progress you've made on every game!
+      </p>
+      <br>
+      <div class="info coverup-child">
+        <button class="settings-button" onclick="">Import</button>
+        <button class="settings-button" onclick="">Export</button>
+      </div>
+      <div class="info coverup-child">
+        <button class="settings-button" onclick="" style="color: var(--theme);">Delete Data!</button>
+      </div>
+    </div>
+    <div class="settings">
+      <div class="settings-columns">
+        <div class="settings-content">
+          <h2>Tab Cloak</h2>
+          <hr />
+          <p>Title:</p>
+          <div class="info">
+            <input id="title" class="input" placeholder="Title Name" onkeyup="setTitle(this.value)" />
+          </div>
+          <br />
+          <p>Favicon:</p>
+          <div class="info">
+            <input id="icon" class="input" placeholder="Website Address" onkeyup="setFavicon(this.value.trim())" />
+          </div>
+          <br />
+          <div class="info">
+            <button class="settings-button" onclick="resetTab()">Reset</button>
+          </div>
+        </div>
+        <div class="settings-content">
+          <h2>Tab Cloak Presets</h2>
+          <hr />
+          <p>Change the tab appearance to one of the presets!
+          </p>
+          <div id="buttons-container"></div>
+        </div>
+      </div>
+      <div class="settings-columns">
+        <div class="settings-content">
+          <h2>Panic Button</h2>
+          <hr />
+          <p>When enabled press ` to open your set panic address
+          </p>
+          <div class="info">
+            <input id="panic-address" value="" placeholder="Panic Address" autocomplete="on" type="text" />
+          </div>
+          <br>
+          <div class="info">
+            <button class="settings-button" onclick="panOn()">Enable</button>
+            <button class="settings-button active" onclick="panOff()">Disable</button>
+          </div>
+        </div>
+        <div class="settings-content">
+          <h2>About:Blank Embeder</h2>
+          <hr />
+          <p>Enter a URL you want to be opened in an about:blank page below:</p>
+          <div class="info">
+            <input id="url-target" value="" placeholder="Website Address" autocomplete="on" type="text" />
+          </div>
+          <br />
+          <div class="info">
+            <button id="create" class="settings-button">Create page</button>
+          </div>
+          <br>
+        </div>
+        <div class="settings-content coverup">
+          <h2 class="info coverup-child">High Detail Mode</h2>
+          <hr class="info coverup-child" />
+          <div class="info coverup-child">
+            <button class="settings-button active">Detailed</button>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="copy"></div>
+  </div>
+  <!--Made By IRV77-->
+  <script src="/js/cloak.js"></script>
+  <script src="/js/aboutblank.js"></script>
+  <script src="/js/settings.js"></script>
+  <script src="/js/index.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/navbar.js"></script>
+</body>
+
+</html>

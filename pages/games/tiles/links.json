@@ -1,0 +1,57 @@
+{
+  "links": [
+    {
+      "title": "Choose a gaming category below!",
+      "games": [
+        [
+          "All Games",
+          "/assets/images/all-games.png",
+          "/pages/games/all_games.html",
+          "Every game on the website in one area"
+        ],
+        [
+          "New Games",
+          "/assets/images/new-games.png",
+          "/pages/games/new_games.html",
+          "All new games that have been added/updated"
+        ],
+        [
+          "Flash Games",
+          "/assets/images/flash-games.png",
+          "/pages/games/flash_games.html",
+          "The old flash games you use to play"
+        ],
+        [
+          "Emulator Games",
+          "/assets/images/emulator-games.png",
+          "/pages/games/emulator_games.html",
+          "Classic games that were run on older systems"
+        ],
+        [
+          "Series Games",
+          "/assets/images/series-games.png",
+          "/pages/games/series_games.html",
+          "Games that are in series"
+        ],
+        [
+          "Game Launchers",
+          "/assets/images/launcher-games.png",
+          "/pages/games/series_games.html",
+          "Custom made game launchers"
+        ],
+        [
+          "Misc Games",
+          "/assets/images/misc-games.png",
+          "/pages/games/misc_games.html",
+          "Rest of the games that aren't on emulators or flash"
+        ],
+        [
+          "Apps",
+          "/assets/images/apps.png",
+          "/pages/games/apps.html",
+          "Random gaming related apps"
+        ]
+      ]
+    }
+  ]
+}

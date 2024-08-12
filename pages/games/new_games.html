@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Games | Kruated Phear</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/logos/favicon.png" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" media="screen and (max-width: 900px)" href="/css/screensize.css">
+  <link rel="stylesheet" media="screen and (max-height: 550px)" href="/css/screensize.css">
+  <!--Discord-->
+  <meta content="Kruated Phear | New Games" property="og:title">
+  <meta content="Explore all of the new games here!">
+  <meta content="https://irv77.github.io/pages/games/new_games.html" property="og:url">
+  <meta content="https://irv77.github.io/assets/images/logos/favicon.png" property="og:image">
+  <meta content="#9a1508" data-react-helmet="true" name="theme-color">
+  <script>
+    window.addEventListener("load", function () {
+      document.getElementById("preloader").style.display = "none";
+      document.querySelector("body").classList.remove('scrolling');
+      console.log("Loaded!");
+    })
+
+    window.addEventListener("scroll", function () {
+      var searchbar = document.querySelector(".searchbar");
+      searchbar.classList.toggle("scrolled", window.scrollY > 0);
+    });
+  </script>
+
+<body class="scrolling">
+  <div id="preloader"></div>
+  <div class="faded"></div>
+  <div class="noised"></div>
+  <div class="searchbar">
+    <div class="text-center">
+      <a onclick="startSearch()" style="position: relative; left: 4.5vw;"><svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="search">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+          <path d="M21 21l-6 -6" />
+        </svg></a>
+      <input type="text" class="text-center" id="mySearch" onload="startSearch()" onkeyup="startSearch()"
+        placeholder="Search for games..." title="Search">
+      <a onclick="openRandomIframe()" style="position: relative; left: -4.5vw;"><svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="random">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+          <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
+          <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
+          <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
+          <circle cx="8.5" cy="15.5" r=".5" fill="currentColor" />
+          <circle cx="12" cy="12" r=".5" fill="currentColor" />
+        </svg></a></a>
+    </div>
+  </div>
+  <div class="content">
+    <script src="/js/search.js"></script>
+    <br>
+    <div id="search" class="flex-container">
+    </div>
+    <div class="copy"></div>
+  </div>
+  <!--Made By IRV77-->
+  <script src="/js/rando.js"></script>
+  <script src="/js/index.js"></script>
+  <script data-name="gameTypes" data-type="new" src="/js/generategames.js"></script>
+  <script src="/js/navbar.js"></script>
+  <script src="/js/theme.js"></script>
+
+
+</body>

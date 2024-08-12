@@ -1,0 +1,359 @@
+body {
+  background: var(--page) fixed right;
+  background-size: cover;
+  box-sizing: border-box;
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: var(--theme);
+  font-family: "Title";
+  font-size: 3.75vw;
+  text-align: center;
+  text-shadow: var(--theme) 3px 0 10px;
+}
+
+h2 {
+  color: var(--text);
+  font-family: "Bam";
+  font-size: 3vw;
+  margin: 2vh 0;
+  text-align: center;
+}
+
+h3 {
+  color: var(--text-secondary);
+  font-size: 1.75vw;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 1.5vw;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+button {
+  background-color: var(--background-secondary);
+  border-radius: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: var(--text);
+  cursor: pointer;
+  font-family: "Bam";
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 0.25vw;
+  padding: 1vw 3vw;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.inprogress {
+  background: rgba(0, 0, 0, .25) url(/assets/images/overlays/inprogress.png);
+  background-size: cover;
+  position: absolute;
+}
+
+.about-title {
+  margin: 4vh 0;
+}
+
+.about {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.about-content {
+  background: rgba(0, 0, 0, .25);
+  border-radius: 2vw;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 1vw;
+  width: 45vw;
+}
+
+.about-content p {
+  width: 100%;
+}
+
+.credits-logo {
+  height: auto;
+  width: 15vw;
+}
+
+#subtitle {
+  animation: subtitleAnim 1.5s ease-in-out infinite;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 2.25vw;
+  font-weight: bold;
+  margin-top: 10vh;
+  -ms-user-select: none;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.section-faq {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2vw;
+}
+
+.faq-title {
+  margin-top: 10vh;
+}
+
+.section-faq ul {
+  margin: 3rem auto;
+  padding-left: 0;
+  width: 75%;
+}
+
+.section-faq ul li {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 1.5vw;
+}
+
+.section-faq .question {
+  background-color: var(--background-secondary);
+  border: var(--theme) solid 0.1vw;
+  border-radius: 2vw;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: var(--text);
+  cursor: pointer;
+  font-family: "Bam";
+  font-size: 2vw;
+  padding: 1.5vw;
+  width: 95%;
+}
+
+.section-faq .answer {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3vw 10vw;
+  color: var(--text-secondary);
+  font-size: 1.5vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  width: 95%;
+}
+
+.section-faq .answer span {
+  display: inline-block;
+  padding: 1.5vw 2.5vw;
+}
+
+.section-faq .question.open+.answer {
+  max-height: 10vh;
+}
+
+.changelog-title {
+  margin-top: 10vh;
+}
+
+header .info p {
+  background: rgba(0, 0, 0, .25);
+  border-radius: 1vw;
+  cursor: pointer;
+  margin: 0 0.25vw;
+  padding: 0.25vw 0.5vw;
+}
+
+header .info p:hover {
+  transform: scale(1.05);
+}
+
+.log-wrapper {
+  margin-bottom: 5vw;
+}
+
+.changelog-entry {
+  background: rgba(0, 0, 0, .25);
+  border-radius: 2vw;
+  margin-bottom: 2vw;
+  padding: 1.5vw;
+}
+
+.changelog-entry li {
+  font-size: 1.5vw;
+}
+
+.add {
+  color: #0bb351;
+}
+
+.remove {
+  color: #e74c3c;
+}
+
+.update {
+  color: #3498db;
+}
+
+.fix {
+  color: #d5a60d;
+}
+
+.system {
+  color: #b700ff;
+}
+
+.blocked {
+  color: #bdc3c7;
+}
+
+.themes {
+  min-height: 100%;
+  width: 100%;
+}
+
+.theme-title {
+  margin-top: 10vh;
+}
+
+span#sub {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50%;
+  font-style: italic;
+}
+
+#hub {
+  background-color: #ffa31a;
+  border-radius: 0.5vw;
+  color: black;
+  font-size: 2.2vw;
+  margin-left: 0.25vw;
+  padding: 0 0.5vw;
+}
+
+.extras {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 85%;
+  width: 100%;
+}
+
+.extras-title {
+  margin-top: 10vh;
+}
+
+.extras-button {
+  border: var(--theme) solid 0.25vw;
+  font-size: 3.5vw;
+  height: 6.5vw;
+  margin: 1.5vw;
+  width: 40vw;
+}
+
+.extras .inprogress {
+  height: 6.5vw;
+  margin: 1.5vw;
+  width: 40vw;
+}
+
+.settings-title {
+  margin-top: 10vh;
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  min-height: 140%;
+  width: 100%;
+}
+
+.settings-columns {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.settings-content {
+  background: rgba(0, 0, 0, .25);
+  border-radius: 2vw;
+  height: fit-content;
+  padding: 1vw;
+  width: 90%;
+}
+
+.settings-content p {
+  width: 100%;
+}
+
+.settings-button {
+  border: var(--theme) solid 0.1vw;
+  margin: 0.5vw;
+  padding: 0.5vw 2vw;
+  width: 90%;
+}
+
+.presets {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3.5vw;
+  image-rendering: pixelated;
+  margin: 0 0.5vh;
+  object-fit: cover;
+  width: 3.5vw;
+}
+
+.presets:hover {
+  transform: scale(1.1);
+}
+
+#buttons-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5vh;
+}
+
+input {
+  background-color: rgba(255, 255, 255, .05);
+  border: 0.25vw solid var(--background-secondary);
+  border-radius: 1vw;
+  box-sizing: border-box;
+  color: var(--text);
+  font-size: 1.25vw;
+  margin: 1vh;
+  max-width: 85%;
+  padding: 1vw;
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--text-secondary);
+}
+
+button.active {
+  color: var(--theme-secondary);
+  text-shadow: var(--theme) 1px 0 12px;
+}
+
+.coverup {
+  background-image: url(/assets/images/overlays/inprogress.png);
+  background-size: cover;
+}
+
+.coverup-child {
+  position: relative;
+  user-select: none;
+  z-index: -1;
+}
