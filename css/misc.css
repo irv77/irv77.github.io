@@ -1,3 +1,4 @@
+/* General CSS */
 body {
   background: var(--page) fixed right;
   background-size: cover;
@@ -47,7 +48,7 @@ button {
   font-family: "Bam";
   font-size: 2vw;
   font-weight: bold;
-  margin: 0.25vw;
+  margin: 0.5vw;
   padding: 1vw 3vw;
 }
 
@@ -55,11 +56,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-.inprogress {
-  background: rgba(0, 0, 0, .25) url(/assets/images/overlays/inprogress.png);
-  background-size: cover;
-  position: absolute;
-}
+/* About CSS */
 
 .about-title {
   margin: 4vh 0;
@@ -97,12 +94,14 @@ button:hover {
   cursor: pointer;
   font-size: 2.25vw;
   font-weight: bold;
-  margin-top: 10vh;
+  margin-top: 6vh;
   -ms-user-select: none;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
 }
+
+/* FAQ CSS */
 
 .section-faq {
   align-items: center;
@@ -162,6 +161,8 @@ button:hover {
   max-height: 10vh;
 }
 
+/* Changelog CSS */
+
 .changelog-title {
   margin-top: 10vh;
 }
@@ -217,6 +218,8 @@ header .info p:hover {
   color: #bdc3c7;
 }
 
+/* Themes CSS */
+
 .themes {
   min-height: 100%;
   width: 100%;
@@ -224,6 +227,12 @@ header .info p:hover {
 
 .theme-title {
   margin-top: 10vh;
+}
+
+.theme-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 span#sub {
@@ -240,6 +249,8 @@ span#sub {
   margin-left: 0.25vw;
   padding: 0 0.5vw;
 }
+
+/* Extras CSS */
 
 .extras {
   align-items: center;
@@ -267,6 +278,14 @@ span#sub {
   margin: 1.5vw;
   width: 40vw;
 }
+
+.inprogress {
+  background: rgba(0, 0, 0, .25) url(/assets/images/overlays/inprogress.png);
+  background-size: cover;
+  position: absolute;
+}
+
+/* Settings CSS */
 
 .settings-title {
   margin-top: 10vh;

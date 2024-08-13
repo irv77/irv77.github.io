@@ -6,6 +6,10 @@ style.textContent = `
     border-left: 0.1vw solid var(--theme);
   }
 
+  ::-webkit-scrollbar-corner {
+    background: var(--background-secondary);
+  }
+
   ::-webkit-scrollbar-thumb {
     background: var(--text);
     -webkit-border-radius: 1ex;
@@ -18,12 +22,30 @@ style.textContent = `
   ::-webkit-scrollbar-thumb:active {
     cursor: grabbing;
   }
-
-  ::-webkit-scrollbar-corner {
-    background: var(--background-secondary);
-  }
 `;
 document.head.appendChild(style);
+
+let loading = document.getElementById("preloader");
+if (loading) { 
+	document.body.classList.add("scrolling");
+	loading.innerHTML = `
+	<div class="vignette"></div>
+    <div>
+      <div class="weblogo"></div>
+	  <div class="info" style="align-items: center;">
+      	<div class="loadwheel"></div><h1 class="loading">Loading...</h1>
+	  </div>
+    </div>
+	`;
+}
+
+window.addEventListener("load", function () {
+  if (loading) {
+    loading.style.display = "none";
+    document.querySelector("body").classList.remove('scrolling');
+    console.log("Loaded!");
+  }
+})
 
 window.addEventListener('DOMContentLoaded', function () {
   var navbar = document.createElement('div');
@@ -31,258 +53,271 @@ window.addEventListener('DOMContentLoaded', function () {
   navbar.innerHTML = `
   <style>
       /* Navbar CSS */
-      #navbar {
-        position: fixed;
-        top: 2.5%;
-        left: 2.5%;
-        width: 95%;
-        z-index: 9999;
-        list-style-type: none;
-      }
-    
-      #navbar #top-bar {
-        padding: 2vh 7.5vh;
-        background: rgba(0, 0, 0, 0.65) url(/assets/images/overlays/divider.png) no-repeat center;
-        border: 0.2vh solid var(--theme);
-        border-radius: 10vw;
-      }
-    
-      #navbar #top-bar nav ul {
-        display: flex;
-        padding: 0;
-        margin: 0;
-        justify-content: center;
-      }
-    
-      #navbar #top-bar nav ul li {
-        margin-left: 1%;
-        margin-right: 1%;
-        list-style-type: none;
-      }
-    
-      #navbar #top-bar nav ul li a {
-        text-decoration: none;
-        color: var(--theme-secondary);
-        font-weight: bold;
-        font-size: 2vw;
-        transition: background-color 0.3s ease;
-        display: flex;
-      }
-    
-      .theme, .setting {
-        margin-top: 0.3vw;
-        margin-left: 1%;
-        margin-right: 1%;
-        width: 3.5vw;
-        stroke: var(--theme-tertiary);
-      }
-    
-      path {
-        transition: fill 0.3s ease;
-      }
-    
-      .svg {
-        width: 2vw;
-        vertical-align: top;
-        stroke: var(--theme-secondary);
-        margin-right: 1vh;
-      }
+#navbar {
+	left: 2.5%;
+	list-style-type: none;
+	position: fixed;
+	top: 2.5%;
+	width: 95%;
+	z-index: 9999;
+}
 
-      #navbar #top-bar nav ul li a:hover {
-        color: var(--text-secondary);
-      }
+#navbar #top-bar {
+	background: rgba(0, 0, 0, 0.65) url(/assets/images/overlays/divider.png) no-repeat center;
+	border: 0.2vh solid var(--theme);
+	border-radius: 10vw;
+	padding: 2vh 7.5vh;
+}
 
-      .hvuncen a:hover path, .theme:hover path, .setting:hover path {
-        stroke: var(--text-secondary);
-      }
-    
-      .logo {
-        width: fit-content;
-        cursor: pointer;
-        display: block;
-      }
-    
-      .navlogo {
-        width: 40vw;
-        transition: transform 0.1s;
-      }
+#navbar #top-bar nav ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
 
-      .navlogo:hover {
-        transform: scale(1.025);
-      }
-    
-      .navloader {
-        z-index: 9999;
-      }
+#navbar #top-bar nav ul li {
+	list-style-type: none;
+	margin-left: 1%;
+	margin-right: 1%;
+}
 
-      .hvuncen {
-        cursor: pointer;
-        z-index: 9999;
-        margin-top: 1%;
-        height: fit-content;
-      }
+#navbar #top-bar nav ul li a {
+	color: var(--theme-secondary);
+	display: flex;
+	font-size: 2vw;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
 
-      .hvuncen:before, .navloader:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        left: 50%;
-        right: 50%;
-        bottom: 0;
-        background: var(--theme-secondary);
-        height: 0.25vh;
-        transition-property: left, right;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-out;
-        margin: 0 3vw;
-      }
-      
-      .hvuncen:active:before, .hvuncen:focus:before, .hvuncen:hover:before, .navloader:active:before, .navloader:focus:before, .navloader:hover:before {
-        left: 0;
-        right: 0;
-      }
-      
-      .copy p {
-        position: absolute;
-        z-index: 2;
-        margin: 0;
-        padding-bottom: 1vh;
-        width: 100%;
-        box-shadow: 0 -1vh 2vh 1vh rgba(0, 0, 0, 0.45);
-        font-family: "CopyR";
-        font-size: 1.5vw;
-        background: rgba(0, 0, 0, 0.55);
-        color: var(--text);
-      }
-    
-      /* Mobile Navbar CSS */
+.theme,
+.setting {
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 0.3vw;
+	stroke: var(--theme-tertiary);
+	width: 3.5vw;
+}
 
-      #mobile-options {
-        display: none;
-        justify-content: center;
-        align-items: center;
-      }
+path {
+	transition: fill 0.3s ease;
+}
 
-      #mobile-options .navlogo {
-        width: 75vw;
-      }
+.svg {
+	margin-right: 1vh;
+	stroke: var(--theme-secondary);
+	vertical-align: top;
+	width: 2vw;
+}
 
-      #hamburger-icon {
-        cursor: pointer;
-        position: absolute;
-        right: 3vw;
-      }
-    
-      #hamburger-icon div {
-        width: 5vw;
-        height: 0.5vw;
-        background-color: var(--text);
-        margin: 0.75vw 0;
-        transition: 0.4s;
-      }
-      
-      .open .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-1vw, 1vw);
-        transform: rotate(-45deg) translate(-1vw, 1vw);
-      }
-      
-      .open .bar2 {
-        opacity: 0;
-      }
-      
-      .open .bar3 {
-        -webkit-transform: rotate(45deg) translate(-0.75vw, -0.75vw);
-        transform: rotate(45deg) translate(-0.75vw, -0.75vw);
-      }
-      
-      .open.mobile-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        height: 100vh;
-        position: fixed;
-      }
-      
-      .mobile-menu .hvuncen {
-        margin-bottom: 5vh;
-        height: 5vh;
-      }
-    
-      .mobile-menu .hvuncen:before {
-        margin: 0;
-      }
+#navbar #top-bar nav ul li a:hover {
+	color: var(--text-secondary);
+}
 
-      .mobile-menu {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        background: var(--background-secondary) url(/assets/images/overlays/overlay-small.png) no-repeat;
-        background-size: cover;
-        cursor: default;
-        z-index: -1;
-        margin-top: 0;
-        padding: 0;
-      }
-      
-      .mobile-menu li a {
-        text-decoration: none;
-        color: var(--theme-secondary);
-        font-weight: bold;
-        font-size: 6vh;
-        transition: background-color 0.3s ease;
-      }
-    
-      .mobile-menu li a:hover {
-        color: var(--text-secondary);
-      }
-      
-      .mobile-menu li {
-        margin-bottom: 3vw;
-        list-style-type: none;
-      }
-      
-      .mobile-menu .svg {
-        width: 6.5vh;
-      }
+.hvuncen a:hover path,
+.theme:hover path,
+.setting:hover path {
+	stroke: var(--text-secondary);
+}
 
-      @media only screen and (max-width: 900px) {
-        div nav {
-          display: none;
-        }
-      
-        #mobile-options {
-          display: flex;
-        }
+.logo {
+	cursor: pointer;
+	display: block;
+	width: fit-content;
+}
 
-        .copy p {
-        	font-size: 2.5vw;
-        	padding-bottom: 1.5vh;
-        }
-      }
+.navlogo {
+	transition: transform 0.1s;
+	width: 40vw;
+}
 
-      @media only screen and (max-height: 550px) {
-        div nav {
-          display: none;
-        }
-      
-        #mobile-options {
-          display: flex;
-        }
-        
-        .copy p {
-        	font-size: 2.5vw;
-        	padding-bottom: 1.5vh;
-        }
-      }
-    
-      .scrolling {
-        height: 100%;
-        overflow: hidden;
-      }
+.navlogo:hover {
+	transform: scale(1.025);
+}
+
+.navloader {
+	z-index: 9999;
+}
+
+.hvuncen {
+	cursor: pointer;
+	height: fit-content;
+	margin-top: 1%;
+	z-index: 9999;
+}
+
+.hvuncen:before,
+.navloader:before {
+	background: var(--theme-secondary);
+	bottom: 0;
+	content: "";
+	height: 0.25vh;
+	left: 50%;
+	margin: 0 3vw;
+	position: absolute;
+	right: 50%;
+	transition-duration: 0.3s;
+	transition-property: left, right;
+	transition-timing-function: ease-out;
+	z-index: -1;
+}
+
+.hvuncen:active:before,
+.hvuncen:focus:before,
+.hvuncen:hover:before,
+.navloader:active:before,
+.navloader:focus:before,
+.navloader:hover:before {
+	left: 0;
+	right: 0;
+}
+
+.copy p {
+	background: rgba(0, 0, 0, 0.55);
+	box-shadow: 0 -1vh 2vh 1vh rgba(0, 0, 0, 0.45);
+	color: var(--text);
+	font-family: "CopyR";
+	font-size: 1.5vw;
+	margin: 0;
+	padding-bottom: 1vh;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+/* Mobile Navbar CSS */
+
+#mobile-options {
+	align-items: center;
+	display: none;
+	justify-content: center;
+}
+
+#mobile-options .navlogo {
+	width: 75vw;
+}
+
+#hamburger-icon {
+	cursor: pointer;
+	position: absolute;
+	right: 3vw;
+}
+
+#hamburger-icon div {
+	background-color: var(--text);
+	height: 0.5vw;
+	margin: 0.75vw 0;
+	transition: 0.4s;
+	width: 5vw;
+}
+
+.open .bar1 {
+	transform: rotate(-45deg) translate(-1vw, 1vw);
+	webkit-transform: rotate(-45deg) translate(-1vw, 1vw);
+}
+
+.open .bar2 {
+	opacity: 0;
+}
+
+.open .bar3 {
+	transform: rotate(45deg) translate(-0.75vw, -0.75vw);
+	webkit-transform: rotate(45deg) translate(-0.75vw, -0.75vw);
+}
+
+.open.mobile-menu {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: flex-start;
+	position: fixed;
+}
+
+.mobile-menu .hvuncen {
+	height: 5vh;
+	margin-bottom: 5vh;
+}
+
+.mobile-menu .hvuncen:before {
+	margin: 0;
+}
+
+.mobile-menu {
+	background: var(--background-secondary) url(/assets/images/overlays/overlay-small.png) no-repeat;
+	background-size: cover;
+	cursor: default;
+	display: none;
+	height: 100vh;
+	left: 0;
+	margin-top: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.mobile-menu li a {
+	color: var(--theme-secondary);
+	font-size: 6vh;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.mobile-menu li a:hover {
+	color: var(--text-secondary);
+}
+
+.mobile-menu li {
+	list-style-type: none;
+	margin-bottom: 3vw;
+}
+
+.mobile-menu .svg {
+	width: 6.5vh;
+}
+
+/* Scaling CSS */
+
+@media only screen and (max-width: 900px) {
+	div nav {
+		display: none;
+	}
+
+	#mobile-options {
+		display: flex;
+	}
+
+	.copy p {
+		font-size: 2.5vw;
+		padding-bottom: 1.5vh;
+	}
+}
+
+@media only screen and (max-height: 550px) {
+	div nav {
+		display: none;
+	}
+
+	#mobile-options {
+		display: flex;
+	}
+
+	.copy p {
+		font-size: 2.5vw;
+		padding-bottom: 1.5vh;
+	}
+}
+
+/* Misc CSS */
+
+.scrolling {
+	height: 100%;
+	overflow: hidden;
+}
     </style>
     <div id="top-bar">
     <nav>
@@ -306,7 +341,7 @@ window.addEventListener('DOMContentLoaded', function () {
         <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
           <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z"></path><path d="M6 12h4m-2 -2v4"></path><path d="M15 11l0 .01"></path><path d="M18 13l0 .01"></path>
         </svg><span> Games</span></a></li>
-        <li class="hvuncen"><a href="https://irv77.github.io/pages/chat.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <li class="hvuncen"><a href="https://irv77.github.io/pages/extras.html"><svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
           <path d="M20 4v8"></path><path d="M16 4.5v7"></path><path d="M12 5v16"></path><path d="M8 5.5v5"></path><path d="M4 6v4"></path><path d="M20 8h-16"></path>
         </svg><span> Extras</span></a></li>
         <li class="navloader"><a href="https://irv77.github.io/pages/settings.html">
@@ -369,31 +404,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
   document.body.style.marginTop = "8vh";
 });
-
-// Function to enable panic mode
-function panOn() {
-  localStorage.setItem("panic", "on");
-  location.reload();
-}
-
-// Function to disable panic mode
-function panOff() {
-  localStorage.setItem("panic", "off");
-  location.reload();
-}
-
-// Check if panic mode is enabled
-if (localStorage.getItem("panic") === "on") {
-  document.addEventListener('keydown', event => {
-    if (event.keyCode === 192) {
-      let url = localStorage.getItem('panicAddress');
-      if (!url.startsWith('http://') && !url.startsWith('https://')) {
-        url = 'http://' + url;
-      }
-      window.open(url, '_self');
-    }
-  });
-}
 
 // Create a new <p> element
 var copyrightParagraph = document.createElement("p");

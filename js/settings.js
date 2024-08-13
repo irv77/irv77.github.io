@@ -1,85 +1,59 @@
-let tabData = {};
-const tab = localStorage.getItem("tab");
-
-if (tab) {
-  try {
-    tabData = JSON.parse(tab);
-  } catch (e) {
-    console.log("Error parsing tab data from localStorage", e);
-  }
-}
-
-const settingsDefaultTab = {
-  title: "Settings | Kruated Phear",
-  icon: "/assets/images/logos/favicon.png",
-};
-
-const setTitle = (title = "") => {
-  document.title = title || settingsDefaultTab.title;
-  if (title) {
-    tabData.title = title;
-  } else {
-    delete tabData.title;
-  }
-  localStorage.setItem("tab", JSON.stringify(tabData));
-};
-
-const setFavicon = (url) => {
-  const faviconLink = document.querySelector("link[rel='icon']");
-  
-  // Try to load the URL as an image
-  const img = new Image();
-  img.src = url;
-  img.onload = () => {
-    faviconLink.href = url;
-    if (url) {
-      tabData.icon = url;
-    } else {
-      delete tabData.icon;
-    }
-    localStorage.setItem("tab", JSON.stringify(tabData));
-  };
-
-  img.onerror = () => {
-    // If the URL is not an image, use Google's Favicon API
-    const faviconUrl = `https://www.google.com/s2/favicons?sz=64&domain=${url}`;
-    faviconLink.href = faviconUrl || settingsDefaultTab.icon;
-    if (url) {
-      tabData.icon = faviconUrl;
-    } else {
-      delete tabData.icon;
-    }
-    localStorage.setItem("tab", JSON.stringify(tabData));
-  };
-};
-
-
-const resetTab = () => {
-  setTitle();
-  setFavicon();
-  document.getElementById("title").value = "";
-  document.getElementById("icon").value = "";
-  localStorage.setItem("tab", JSON.stringify({}));
-  console.clear();
-};
-
-if (tabData.title) {
-  document.getElementById("title").value = tabData.title;
-}
-
-if (tabData.icon) {
-  document.getElementById("icon").value = tabData.icon;
-}
-
-
-
 // Event listener for panic address change
-document.getElementById('panic-address').addEventListener('change', () => {
-  localStorage.setItem('panicAddress', document.getElementById('panic-address').value);
+const panicID = document.getElementById('panic-address');
+
+if (panicID) {
+panicID.addEventListener('change', () => {
+  localStorage.setItem('panicAddress', panicID.value);
 });
+}
 
 // Set saved panic address if available
 const savedPanicAddress = localStorage.getItem('panicAddress');
 if (savedPanicAddress) {
-  document.getElementById('panic-address').value = savedPanicAddress;
+  panicID.value = savedPanicAddress;
 }
+
+// Cloak Preset Icons
+const container = document.getElementById("buttons-container");
+
+if (container) {
+fetch("/cloak.json").then((response)=>response.json()).then((data)=>{
+  data.forEach((link)=>{
+      const img = document.createElement("img");
+      img.className = "presets";
+      const faviconUrl = `https://www.google.com/s2/favicons?sz=64&domain=${link.favicon}`;
+      img.src = link.favicon;
+      img.onerror = ()=>{
+          img.src = faviconUrl;
+      }
+      ;
+      img.addEventListener("click", function() {
+          setTitle(link.title);
+          setFavicon(link.favicon);
+      });
+      container.appendChild(img);
+  }
+  );
+  const img = document.createElement("img");
+      img.className = "presets";
+      const faviconUrl = `https://i.pinimg.com/originals/9f/da/9c/9fda9cea1b37762c0a8c9a29b605fc68.png`;
+      img.src = faviconUrl;
+      ;
+      img.addEventListener("click", function() {
+          resetTab()
+      });
+      container.appendChild(img);
+}
+);
+}
+
+// Theme Settings
+const themeButtons = document.querySelectorAll(".theme-button");
+
+themeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const theme = button.dataset.theme;
+    document.body.setAttribute("data-theme", theme);
+    localStorage.setItem(themeKey, theme);
+  });
+});

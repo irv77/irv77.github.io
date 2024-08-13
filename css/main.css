@@ -1,3 +1,4 @@
+/* General CSS */
 body {
   background: var(--page) no-repeat fixed right;
   background-size: cover;
@@ -18,21 +19,11 @@ h2 {
   width: 100%;
 }
 
-#preloader {
-  background: #000000 url(/assets/images/loading.gif) no-repeat center center;
-  background-size: 115%;
-  height: 100%;
-  left: 0;
-  margin-top: 0px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10000;
-}
-
 .text-center {
   text-align: center;
 }
+
+/* System Options CSS */
 
 .system-link {
   display: inline-block;
@@ -92,6 +83,8 @@ h2 {
   font-size: 1.5vw;
   padding: 0 1vw;
 }
+
+/* Game Options CSS */
 
 .game-link {
   display: inline-block;
@@ -159,6 +152,8 @@ h2 {
   visibility: hidden;
 }
 
+/* Shared CSS */
+
 .game-desc:empty:not(:focus):before,
 .game-desc:has(br:only-child):not(:focus):before {
   content: attr(placeholder);
@@ -169,7 +164,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 12vh 0;
+  margin: 14vh 0;
+  width: 100%;
 }
 
 .system-link:hover,
@@ -190,6 +186,8 @@ h2 {
   transition: visibility 0s, opacity 0.5s ease-in-out;
   visibility: visible;
 }
+
+/* Searchbar CSS */
 
 .searchbar {
   left: 0;

@@ -1,0 +1,21 @@
+{
+  "links": [
+    {
+      "title": "Game Launchers",
+      "games": [
+        [
+          "Ampler Launcher",
+          "https://vulen76.web.app/games/other/ampler-launcher/images/logo.png",
+          "https://vulen76.web.app/games/other/ampler-launcher/index.html",
+          "Play different versions of minecraft! Made by IRV77"
+        ],
+        [
+          "Five Nights at Freddy's Launcher",
+          "https://vulen76.web.app/games/other/fnaf-launcher/logo.png",
+          "https://vulen76.web.app/games/other/fnaf-launcher/index.html",
+          "Smooth launcher for the fnaf games! Made by IRV77"
+        ]
+      ]
+    }
+  ]
+}

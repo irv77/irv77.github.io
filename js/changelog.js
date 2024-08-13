@@ -12,6 +12,40 @@ const logArr = [
   },
   **/
   {
+    version: `2.00.3`,
+    date: `August 13, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added launcher games`
+      },
+      {
+        label: [`add`],
+        detail: `Added more fnaf games`
+      },
+      {
+        label: [`add`],
+        detail: `Added better and more loading screens`
+      },
+      {
+        label: [`fix`],
+        detail: `Fixed many bugs`
+      },
+      {
+        label: [`system`],
+        detail: `Fixed and changed game urls`
+      },
+      {
+        label: [`system`],
+        detail: `Changed official url link`
+      },
+      {
+        label: [`system`],
+        detail: `Reduced and organized more js code`
+      }
+    ]
+  },
+  {
     version: `2.00.0`,
     date: `August 11, 2024 `,
     list: [

@@ -1,3 +1,4 @@
+/* General CSS */
 body {
 	background: var(--home) fixed right;
 	background-size: cover;
@@ -20,6 +21,8 @@ h1 {
 a {
 	color: var(--text);
 }
+
+/* Top CSS */
 
 .hero {
 	display: contents;
@@ -51,12 +54,8 @@ h1#title {
 }
 
 .weblogo {
-	background: url(/assets/images/logos/title-logo.png) no-repeat center;
-	background-size: contain;
-	height: 7vw;
 	padding-top: 2vh;
 	transition: transform 0.1s;
-	width: 80vw;
 }
 
 .weblogo:hover {
@@ -98,6 +97,8 @@ h1#title {
 	transform: skewX(20deg);
 	-webkit-transform: skewX(20deg);
 }
+
+/* Features CSS */
 
 .features {
 	align-items: center;
@@ -166,6 +167,8 @@ h1#title {
 	margin: 1.5vw 1vw;
 }
 
+/* Updates CSS */
+
 .recent-upd-container {
 	min-height: 12vw;
 	width: 100%;
@@ -211,6 +214,12 @@ h1#title {
 	margin-left: 3vw;
 }
 
+.changelog-entry {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .changelog-entry ul {
 	float: right;
 	list-style-position: inside;
@@ -249,6 +258,8 @@ h1#title {
 .blocked {
 	color: #bdc3c7;
 }
+
+/* Info CSS */
 
 .line {
 	background-color: var(--theme);
@@ -295,6 +306,8 @@ h1#title {
 .square a {
 	color: rgb(169, 182, 149);
 }
+
+/* 404 CSS */
 
 .error h1 {
 	font-size: 6vw;

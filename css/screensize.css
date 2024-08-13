@@ -1,3 +1,4 @@
+/* General CSS */
 .weblogo {
 	background: url(/assets/images/logos/title-logo-mobile.png) no-repeat center;
 	background-size: contain;
@@ -13,9 +14,35 @@ h2 {
 	font-size: 4.5vw;
 }
 
+h3 {
+	font-size: 2.5vw;
+}
+
+button {
+	border-radius: 1.5vw;
+	font-size: 3.5vw;
+}
+
 p {
 	font-size: 2.5vw;
 }
+
+/* Loading CSS */
+
+#preloader .loadwheel {
+	border: var(--background-secondary) solid 1vw;
+	border-bottom: var(--theme) solid 1vw;
+	border-top: var(--theme) solid 1vw;
+	height: 3vw;
+	width: 3vw;
+}
+
+#preloader .loading {
+	font-size: 5vw;
+	margin: 0 3vw;
+}
+
+/* Home CSS */
 
 h1#title {
 	font-size: 3.5vw;
@@ -26,7 +53,7 @@ h1#title {
 	padding: 2vw 6vw;
 }
 
-section.changelog-entry {
+.recent-upd-container .changelog-entry {
 	margin-bottom: auto;
 	width: auto;
 }
@@ -92,6 +119,8 @@ section.changelog-entry {
 	font-size: 1.1vw;
 }
 
+/* About CSS */
+
 .about {
 	flex-direction: column;
 	padding: 10vw 0;
@@ -115,6 +144,8 @@ section.changelog-entry {
 	width: 24vw;
 }
 
+/* System Options CSS */
+
 .system-link {
 	height: 22.5vw;
 	width: 40vw;
@@ -127,6 +158,8 @@ section.changelog-entry {
 .system-desc {
 	font-size: 2vw;
 }
+
+/* Game Options CSS */
 
 .game-link {
 	height: 22vw;
@@ -148,6 +181,8 @@ section.changelog-entry {
 	width: 75%;
 }
 
+/* Searchbar CSS */
+
 .searchbar.scrolled {
 	margin-top: 1.75vw;
 }
@@ -159,6 +194,8 @@ section.changelog-entry {
 .search {
 	width: 2.6vw;
 }
+
+/* FAQ CSS */
 
 .section-faq ul li {
 	margin-bottom: 2vw;
@@ -184,14 +221,7 @@ section.changelog-entry {
 	width: 90vw;
 }
 
-h3 {
-	font-size: 2.5vw;
-}
-
-button {
-	border-radius: 1.5vw;
-	font-size: 3.5vw;
-}
+/* Extras CSS */
 
 .extras-button {
 	border: var(--theme) solid 0.5vw;
@@ -207,6 +237,8 @@ button {
 	width: 85vw;
 }
 
+/* Settings CSS */
+
 input {
 	font-size: 2vw;
 }
@@ -215,6 +247,8 @@ input {
 	height: 4vw;
 	width: 4vw;
 }
+
+/* 404 CSS */
 
 .error h1 {
 	font-size: 8vw;

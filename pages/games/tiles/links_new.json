@@ -4,33 +4,69 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "Five Nights at Freddy's Launcher",
+          "https://vulen76.web.app/games/other/fnaf-launcher/logo.png",
+          "https://vulen76.web.app/games/other/fnaf-launcher/index.html",
+          "Smooth launcher for the fnaf games! Made by IRV77"
+        ],
+        [
+          "Ampler Launcher",
+          "https://vulen76.web.app/games/other/ampler-launcher/images/logo.png",
+          "https://vulen76.web.app/games/other/ampler-launcher/index.html",
+          "Play different versions of minecraft! Made by IRV77"
+        ],
+        [
+          "Five Nights at Freddy's 3",
+          "https://vulen76.web.app/games/other/fnaf3/logo.webp",
+          "https://vulen76.web.app/games/other/fnaf3/index.html",
+          ""
+        ],
+        [
+          "Five Nights at Freddy's 4",
+          "https://vulen76.web.app/games/other/fnaf4/logo.webp",
+          "https://vulen76.web.app/games/other/fnaf4/index.html",
+          ""
+        ],
+        [
+          "Five Nights at Freddy's Pizzeria Simulator",
+          "https://vulen76.web.app/games/other/fnafps/logo.jpg",
+          "https://vulen76.web.app/games/other/fnafps/index.html",
+          ""
+        ],
+        [
+          "Five Nights at Freddy's World",
+          "https://vulen76.web.app/games/other/fnafw/logo.jpg",
+          "https://vulen76.web.app/games/other/fnafw/index.html",
+          ""
+        ],
+        [
           "Rodeo Stampede",
-          "https://vul76.web.app/html/games/other/rodeo-stampede/logo.jpg",
-          "https://vul76.web.app/html/games/other/rodeo-stampede/index.html",
+          "https://vulen76.web.app/games/other/rodeo-stampede/logo.jpg",
+          "https://vulen76.web.app/games/other/rodeo-stampede/index.html",
           ""
         ],
         [
           "Whack a Mole",
-          "https://vul76.web.app/html/games/other/wam/logo.png",
-          "https://vul76.web.app/html/games/other/wam/index.html",
+          "https://vulen76.web.app/games/other/wam/logo.png",
+          "https://vulen76.web.app/games/other/wam/index.html",
           ""
         ],
         [
           "Astray Hardcore",
-          "https://vul76.web.app/html/games/other/astray2/logo.png",
-          "https://vul76.web.app/html/games/other/astray2/index.html",
+          "https://vulen76.web.app/games/other/astray2/logo.png",
+          "https://vulen76.web.app/games/other/astray2/index.html",
           ""
         ],
         [
           "Astray Normal",
-          "https://vul76.web.app/html/games/other/astray1/logo.png",
-          "https://vul76.web.app/html/games/other/astray1/index.html",
+          "https://vulen76.web.app/games/other/astray1/logo.png",
+          "https://vulen76.web.app/games/other/astray1/index.html",
           ""
         ],
         [
           "Jelly Truck",
-          "https://vul76.web.app/html/games/other/jelly-truck/logo.png",
-          "https://vul76.web.app/html/games/other/jelly-truck/index.html",
+          "https://vulen76.web.app/games/other/jelly-truck/logo.png",
+          "https://vulen76.web.app/games/other/jelly-truck/index.html",
           ""
         ],
         [
@@ -41,398 +77,398 @@
         ],
         [
           "DVD Bounce",
-          "https://vul76.web.app/html/games/other/dvd-bounce/logo.png",
-          "https://vul76.web.app/html/games/other/dvd-bounce/index.html",
+          "https://vulen76.web.app/games/other/dvd-bounce/logo.png",
+          "https://vulen76.web.app/games/other/dvd-bounce/index.html",
           ""
         ],
         [
           "Make Sure It's Closed",
-          "https://vul76.web.app/html/games/other/msic/logo.webp",
-          "https://vul76.web.app/html/games/other/msic/index.html",
+          "https://vulen76.web.app/games/other/msic/logo.webp",
+          "https://vulen76.web.app/games/other/msic/index.html",
           ""
         ],
         [
           "Grumace",
-          "https://vul76.web.app/html/games/other/grumace/logo.png",
-          "https://vul76.web.app/html/games/other/grumace/index.html",
+          "https://vulen76.web.app/games/other/grumace/logo.png",
+          "https://vulen76.web.app/games/other/grumace/index.html",
           ""
         ],
         [
           "xx142-b2.exe",
-          "https://vul76.web.app/html/games/other/xx142-b2.exe/logo.png",
-          "https://vul76.web.app/html/games/other/xx142-b2.exe/index.html",
+          "https://vulen76.web.app/games/other/xx142-b2.exe/logo.png",
+          "https://vulen76.web.app/games/other/xx142-b2.exe/index.html",
           ""
         ],
         [
           "Edge Not Found",
-          "https://vul76.web.app/html/games/other/edge-not-found/icon.png",
-          "https://vul76.web.app/html/games/other/edge-not-found/index.html",
+          "https://vulen76.web.app/games/other/edge-not-found/icon.png",
+          "https://vulen76.web.app/games/other/edge-not-found/index.html",
           ""
         ],
         [
           "Mindustry",
-          "https://vul76.web.app/html/games/other/mindustry/logo.jpg",
-          "https://vul76.web.app/html/games/other/mindustry/index.html",
+          "https://vulen76.web.app/games/other/mindustry/logo.jpg",
+          "https://vulen76.web.app/games/other/mindustry/index.html",
           ""
         ],
         [
           "Big Red Button",
-          "https://vul77.web.app/img/red-button.png",
-          "https://vul77.web.app/html/games/flash/index.html?swf=bigredbutton.swf",
+          "https://vulen76.web.app/images/red-button.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=bigredbutton.swf",
           "This is the Big Red Button. There's just one rule: Do not press."
         ],
         [
           "Google Breakout",
-          "https://vul76.web.app/html/games/other/breakout/logo.jpg",
-          "https://vul76.web.app/html/games/other/breakout/index.html",
+          "https://vulen76.web.app/games/other/breakout/logo.jpg",
+          "https://vulen76.web.app/games/other/breakout/index.html",
           ""
         ],
         [
           "Mini Shooters",
-          "https://vul76.web.app/html/games/other/mini-shooters/logo.jpg",
-          "https://vul76.web.app/html/games/other/mini-shooters/index.html",
+          "https://vulen76.web.app/games/other/mini-shooters/logo.jpg",
+          "https://vulen76.web.app/games/other/mini-shooters/index.html",
           ""
         ],
         [
           "Strange Insults",
-          "https://vul76.web.app/html/games/other/strange-insults/logo.png",
-          "https://vul76.web.app/html/games/other/strange-insults/index.html",
+          "https://vulen76.web.app/games/other/strange-insults/logo.png",
+          "https://vulen76.web.app/games/other/strange-insults/index.html",
           ""
         ],
         [
           "Idle Dices",
-          "https://vul76.web.app/html/games/other/idle-dices/assets/img/icon/icon512.png",
-          "https://vul76.web.app/html/games/other/idle-dices/index.html",
+          "https://vulen76.web.app/games/other/idle-dices/assets/img/icon/icon512.png",
+          "https://vulen76.web.app/games/other/idle-dices/index.html",
           ""
         ],
         [
           "Neverending Legacy",
-          "https://vul76.web.app/html/games/other/neverending-legacy/logo.png",
-          "https://vul76.web.app/html/games/other/neverending-legacy/index.html",
+          "https://vulen76.web.app/games/other/neverending-legacy/logo.png",
+          "https://vulen76.web.app/games/other/neverending-legacy/index.html",
           ""
         ],
         [
           "Cat Gunner: Super Zombie Shoot",
-          "https://vul76.web.app/html/games/other/cat-gunner/icons/icon-256.png",
-          "https://vul76.web.app/html/games/other/cat-gunner/index.html",
+          "https://vulen76.web.app/games/other/cat-gunner/icons/icon-256.png",
+          "https://vulen76.web.app/games/other/cat-gunner/index.html",
           ""
         ],
         [
           "Fix it Felix Jr.",
-          "https://vul76.web.app/html/games/other/webretro/thumb/felix.jpg",
-          "https://vul76.web.app/html/games/other/webretro/index.html?core=genesis_plus_gx&rom=felix.bin",
+          "https://vulen76.web.app/games/other/webretro/thumb/felix.jpg",
+          "https://vulen76.web.app/games/other/webretro/index.html?core=genesis_plus_gx&rom=felix.bin",
           ""
         ],
         [
           "Feedvid Live",
-          "https://vul76.web.app/html/games/other/feedvid-live/logo.png",
-          "https://vul76.web.app/html/games/other/feedvid-live/index.html",
+          "https://vulen76.web.app/games/other/feedvid-live/logo.png",
+          "https://vulen76.web.app/games/other/feedvid-live/index.html",
           ""
         ],
         [
           "Color Up",
-          "https://vul76.web.app/html/games/other/colorup/logo.png",
-          "https://vul76.web.app/html/games/other/colorup/index.html",
+          "https://vulen76.web.app/games/other/colorup/logo.png",
+          "https://vulen76.web.app/games/other/colorup/index.html",
           ""
         ],
         [
           "Barbershop inc.",
-          "https://vul76.web.app/html/games/other/barbershop-inc/logo.png",
-          "https://vul76.web.app/html/games/other/barbershop-inc/index.html",
+          "https://vulen76.web.app/games/other/barbershop-inc/logo.png",
+          "https://vulen76.web.app/games/other/barbershop-inc/index.html",
           ""
         ],
         [
           "Bacon May Die",
-          "https://vul76.web.app/html/games/other/bacon-may-die/logo.png",
-          "https://vul76.web.app/html/games/other/bacon-may-die/index.html",
+          "https://vulen76.web.app/games/other/bacon-may-die/logo.png",
+          "https://vulen76.web.app/games/other/bacon-may-die/index.html",
           ""
         ],
         [
           "SlowRoads.io",
-          "https://vul76.web.app/html/games/other/slowroads/logo.jpg",
-          "https://vul76.web.app/html/games/other/slowroads/index.html",
+          "https://vulen76.web.app/games/other/slowroads/logo.jpg",
+          "https://vulen76.web.app/games/other/slowroads/index.html",
           ""
         ],
         [
           "Highway Racer",
-          "https://vul76.web.app/html/games/other/highway-racer/logo.jpg",
-          "https://vul76.web.app/html/games/other/highway-racer/index.html",
+          "https://vulen76.web.app/games/other/highway-racer/logo.jpg",
+          "https://vulen76.web.app/games/other/highway-racer/index.html",
           ""
         ],
         [
           "Moto Road Rash 3D",
-          "https://vul76.web.app/html/games/other/moto-road-rash/thumbnail.jpg",
-          "https://vul76.web.app/html/games/other/moto-road-rash/index.html",
+          "https://vulen76.web.app/games/other/moto-road-rash/thumbnail.jpg",
+          "https://vulen76.web.app/games/other/moto-road-rash/index.html",
           ""
         ],
         [
           "Burger Bounty",
-          "https://vul76.web.app/html/games/other/burger-bounty/logo.png",
-          "https://vul76.web.app/html/games/other/burger-bounty/index.html",
+          "https://vulen76.web.app/games/other/burger-bounty/logo.png",
+          "https://vulen76.web.app/games/other/burger-bounty/index.html",
           ""
         ],
         [
           "Ice Scream 1",
-          "https://vul76.web.app/html/games/other/ice-scream-1/logo.png",
-          "https://vul76.web.app/html/games/other/ice-scream-1/index.html",
+          "https://vulen76.web.app/games/other/ice-scream-1/logo.png",
+          "https://vulen76.web.app/games/other/ice-scream-1/index.html",
           ""
         ],
         [
           "The Visitor",
-          "https://vul77.web.app/img/the-visitor.png",
-          "https://vul77.web.app/html/games/flash/index.html?swf=thevisitor.swf",
+          "https://vulen76.web.app/images/the-visitor.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=thevisitor.swf",
           ""
         ],
         [
           "Red Ball 4",
-          "https://vul76.web.app/html/games/other/red-ball-4/logo.png",
-          "https://vul76.web.app/html/games/other/red-ball-4/index.html",
+          "https://vulen76.web.app/games/other/red-ball-4/logo.png",
+          "https://vulen76.web.app/games/other/red-ball-4/index.html",
           ""
         ],
         [
           "Eggy Car",
-          "https://vul76.web.app/html/games/other/eggy-car/icon-256.png",
-          "https://vul76.web.app/html/games/other/eggy-car/index.html",
+          "https://vulen76.web.app/games/other/eggy-car/icon-256.png",
+          "https://vulen76.web.app/games/other/eggy-car/index.html",
           ""
         ],
         [
           "30 Dollar Soundboard",
-          "https://vul76.web.app/html/games/other/sdw/logo.png",
-          "https://vul76.web.app/html/games/other/sdw/index.html",
+          "https://vulen76.web.app/games/other/sdw/logo.png",
+          "https://vulen76.web.app/games/other/sdw/index.html",
           ""
         ],
         [
           "Pillar Valley",
-          "https://vul76.web.app/html/games/other/pillar-valley/logo.png",
-          "https://vul76.web.app/html/games/other/pillar-valley/",
+          "https://vulen76.web.app/games/other/pillar-valley/logo.png",
+          "https://vulen76.web.app/games/other/pillar-valley/",
           ""
         ],
         [
           "Rolling Forests",
-          "https://vul76.web.app/html/games/other/rolling-forests/logo.png",
-          "https://vul76.web.app/html/games/other/rolling-forests/index.html",
+          "https://vulen76.web.app/games/other/rolling-forests/logo.png",
+          "https://vulen76.web.app/games/other/rolling-forests/index.html",
           ""
         ],
         [
           "Deadly Descent",
-          "https://vul76.web.app/html/games/other/deadly-descent/logo.jpg",
-          "https://vul76.web.app/html/games/other/deadly-descent/index.html",
+          "https://vulen76.web.app/games/other/deadly-descent/logo.jpg",
+          "https://vulen76.web.app/games/other/deadly-descent/index.html",
           ""
         ],
         [
           "Bridge Builder",
-          "https://vul76.web.app/html/games/other/bridge-builder/logo.webp",
-          "https://vul76.web.app/html/games/other/bridge-builder/index.html",
+          "https://vulen76.web.app/games/other/bridge-builder/logo.webp",
+          "https://vulen76.web.app/games/other/bridge-builder/index.html",
           ""
         ],
         [
           "Neon Flytron",
-          "https://vul76.web.app/html/games/other/neon-flytron/logo.jpg",
-          "https://vul76.web.app/html/games/other/neon-flytron/index.html",
+          "https://vulen76.web.app/games/other/neon-flytron/logo.jpg",
+          "https://vulen76.web.app/games/other/neon-flytron/index.html",
           ""
         ],
         [
           "Kids vs Ice Cream",
-          "https://vul77.web.app/img/kids-vs-ice-cream.jpg",
-          "https://vul77.web.app/html/games/flash/index.html?swf=kids_vs_icecream.swf",
+          "https://vulen76.web.app/images/kids-vs-ice-cream.jpg",
+          "https://vulen76.web.app/games/flash/index.html?swf=kids_vs_icecream.swf",
           ""
         ],
         [
           "Slide in the Woods",
-          "https://vul76.web.app/html/games/other/slide-in-the-woods/logo.png",
-          "https://vul76.web.app/html/games/other/slide-in-the-woods/index.html",
+          "https://vulen76.web.app/games/other/slide-in-the-woods/logo.png",
+          "https://vulen76.web.app/games/other/slide-in-the-woods/index.html",
           ""
         ],
         [
           "Granny",
-          "https://vul76.web.app/html/games/other/granny/logo.png",
-          "https://vul76.web.app/html/games/other/granny/index.html",
+          "https://vulen76.web.app/games/other/granny/logo.png",
+          "https://vulen76.web.app/games/other/granny/index.html",
           ""
         ],
         [
           "NetSpate",
-          "https://vul77.web.app/img/netspate.png",
+          "https://vulen76.web.app/images/netspate.png",
           "https://netspate.netlify.app/home.html",
           ""
         ],
         [
           "Money Land",
-          "https://vul76.web.app/html/games/other/money-land/logo.webp",
-          "https://vul76.web.app/html/games/other/money-land/index.html",
+          "https://vulen76.web.app/games/other/money-land/logo.webp",
+          "https://vulen76.web.app/games/other/money-land/index.html",
           ""
         ],
         [
           "Wheely 1",
-          "https://vul77.web.app/img/w1.jpg",
-          "https://vul77.web.app/html/games/flash/index.html?swf=wheely1.swf",
+          "https://vulen76.web.app/images/w1.jpg",
+          "https://vulen76.web.app/games/flash/index.html?swf=wheely1.swf",
           ""
         ],
         [
           "4x4 Drive Offroad",
-          "https://vul76.web.app/html/games/other/drive-offroad/logo.jpg",
-          "https://vul76.web.app/html/games/other/drive-offroad/index.html",
+          "https://vulen76.web.app/games/other/drive-offroad/logo.jpg",
+          "https://vulen76.web.app/games/other/drive-offroad/index.html",
           ""
         ],
         [
           "Doom",
-          "https://vul76.web.app/html/games/other/dos/Doom.jpg",
-          "https://vul76.web.app/html/games/other/doom/index.html",
+          "https://vulen76.web.app/games/other/dos/Doom.jpg",
+          "https://vulen76.web.app/games/other/doom/index.html",
           "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
         ],
         [
           "Two Punk Racing",
-          "https://vul76.web.app/html/games/other/two-punk-racing/logo.webp",
-          "https://vul76.web.app/html/games/other/two-punk-racing/index.html",
+          "https://vulen76.web.app/games/other/two-punk-racing/logo.webp",
+          "https://vulen76.web.app/games/other/two-punk-racing/index.html",
           ""
         ],
         [
           "Snow Rider 3D",
-          "https://vul76.web.app/html/games/other/snow-rider-3d/logo.png",
-          "https://vul76.web.app/html/games/other/snow-rider-3d/index.html",
+          "https://vulen76.web.app/games/other/snow-rider-3d/logo.png",
+          "https://vulen76.web.app/games/other/snow-rider-3d/index.html",
           ""
         ],
         [
           "Pizza Tower",
-          "https://vul76.web.app/html/games/other/pizza-tower/logo.jpg",
-          "https://vul76.web.app/html/games/other/pizza-tower/index.html",
+          "https://vulen76.web.app/games/other/pizza-tower/logo.jpg",
+          "https://vulen76.web.app/games/other/pizza-tower/index.html",
           ""
         ],
         [
           "Cube Flip",
-          "https://vul76.web.app/html/games/other/cube-flip/logo.png",
-          "https://vul76.web.app/html/games/other/cube-flip/index.html",
+          "https://vulen76.web.app/games/other/cube-flip/logo.png",
+          "https://vulen76.web.app/games/other/cube-flip/index.html",
           ""
         ],
         [
           "Baseball Fury",
-          "https://vul76.web.app/html/games/other/baseball-fury/logo.png",
-          "https://vul76.web.app/html/games/other/baseball-fury/index.html",
+          "https://vulen76.web.app/games/other/baseball-fury/logo.png",
+          "https://vulen76.web.app/games/other/baseball-fury/index.html",
           ""
         ],
         [
           "Poor Bunny",
-          "https://vul76.web.app/html/games/other/poor-bunnies/favicon.png",
-          "https://vul76.web.app/html/games/other/poor-bunnies/index.html",
+          "https://vulen76.web.app/games/other/poor-bunnies/favicon.png",
+          "https://vulen76.web.app/games/other/poor-bunnies/index.html",
           ""
         ],
         [
           "Striker Dummies",
-          "https://vul76.web.app/html/games/other/striker-dummies/e9a16c6f058d25f9e9e4b2cd18fddc3e.jpg",
-          "https://vul76.web.app/html/games/other/striker-dummies/index.html",
+          "https://vulen76.web.app/games/other/striker-dummies/e9a16c6f058d25f9e9e4b2cd18fddc3e.jpg",
+          "https://vulen76.web.app/games/other/striker-dummies/index.html",
           ""
         ],
         [
           "Rio Rex",
-          "https://vul76.web.app/html/games/other/rio-rex/e65ee3a5-b1c5-4003-abb8-b52cb215bd10.png",
-          "https://vul76.web.app/html/games/other/rio-rex/index.html",
+          "https://vulen76.web.app/games/other/rio-rex/e65ee3a5-b1c5-4003-abb8-b52cb215bd10.png",
+          "https://vulen76.web.app/games/other/rio-rex/index.html",
           ""
         ],
         [
           "Recoil",
-          "https://vul76.web.app/html/games/other/recoil/webapp/cover.jpg",
-          "https://vul76.web.app/html/games/other/recoil/index.html",
+          "https://vulen76.web.app/games/other/recoil/webapp/cover.jpg",
+          "https://vulen76.web.app/games/other/recoil/index.html",
           ""
         ],
         [
           "Gun Mayhem 2",
-          "https://vul77.web.app/img/gh2.jpg",
-          "https://vul77.web.app/html/games/flash/index.html?swf=gunmayhem2.swf",
+          "https://vulen76.web.app/images/gh2.jpg",
+          "https://vulen76.web.app/games/flash/index.html?swf=gunmayhem2.swf",
           ""
         ],
         [
           "Shortcut Run",
-          "https://vul76.web.app/html/games/other/shortcut-run/icons/icon-512.png",
-          "https://vul76.web.app/html/games/other/shortcut-run/index.html",
+          "https://vulen76.web.app/games/other/shortcut-run/icons/icon-512.png",
+          "https://vulen76.web.app/games/other/shortcut-run/index.html",
           ""
         ],
         [
           "The Little Giant",
-          "https://vul76.web.app/html/games/other/the-little-giant/logo.jpg",
-          "https://vul76.web.app/html/games/other/the-little-giant/index.html",
+          "https://vulen76.web.app/games/other/the-little-giant/logo.jpg",
+          "https://vulen76.web.app/games/other/the-little-giant/index.html",
           ""
         ],
         [
           "8 Ball Pool",
-          "https://vul76.web.app/html/games/other/8-ball-pool/logo.webp",
-          "https://vul76.web.app/html/games/other/8-ball-pool/index.html",
+          "https://vulen76.web.app/games/other/8-ball-pool/logo.webp",
+          "https://vulen76.web.app/games/other/8-ball-pool/index.html",
           ""
         ],
         [
           "Sling Drift",
-          "https://vul76.web.app/html/games/other/sling-drift/logo.png",
-          "https://vul76.web.app/html/games/other/sling-drift/index.html",
+          "https://vulen76.web.app/games/other/sling-drift/logo.png",
+          "https://vulen76.web.app/games/other/sling-drift/index.html",
           ""
         ],
         [
           "Free the Key",
-          "https://vul76.web.app/html/games/other/free-the-key/logo.webp",
-          "https://vul76.web.app/html/games/other/free-the-key/index.html",
+          "https://vulen76.web.app/games/other/free-the-key/logo.webp",
+          "https://vulen76.web.app/games/other/free-the-key/index.html",
           ""
         ],
         [
           "Maze Planet 3D",
-          "https://vul76.web.app/html/games/other/maze-planet-3d/logo.jpg",
-          "https://vul76.web.app/html/games/other/maze-planet-3d/index.html",
+          "https://vulen76.web.app/games/other/maze-planet-3d/logo.jpg",
+          "https://vulen76.web.app/games/other/maze-planet-3d/index.html",
           ""
         ],
         [
           "Marble Dash",
-          "https://vul76.web.app/html/games/other/marble-dash/logo.webp",
-          "https://vul76.web.app/html/games/other/marble-dash/index.html",
+          "https://vulen76.web.app/games/other/marble-dash/logo.webp",
+          "https://vulen76.web.app/games/other/marble-dash/index.html",
           ""
         ],
         [
           "Stunt Car Challenge 3",
-          "https://vul76.web.app/html/games/other/stunt-car-challenge-3/logo.png",
-          "https://vul76.web.app/html/games/other/stunt-car-challenge-3/index.html",
+          "https://vulen76.web.app/games/other/stunt-car-challenge-3/logo.png",
+          "https://vulen76.web.app/games/other/stunt-car-challenge-3/index.html",
           ""
         ],
         [
           "Ultimate Car Driving",
-          "https://vul76.web.app/html/games/other/ultimate-car-driving/logo.png",
-          "https://vul76.web.app/html/games/other/ultimate-car-driving/index.html",
+          "https://vulen76.web.app/games/other/ultimate-car-driving/logo.png",
+          "https://vulen76.web.app/games/other/ultimate-car-driving/index.html",
           ""
         ],
         [
           "FortZ",
-          "https://vul76.web.app/html/games/other/fortz/logo.png",
-          "https://vul76.web.app/html/games/other/fortz/index.html",
+          "https://vulen76.web.app/games/other/fortz/logo.png",
+          "https://vulen76.web.app/games/other/fortz/index.html",
           ""
         ],
         [
           "Master Chess",
-          "https://vul76.web.app/html/games/other/master-chess/sprites/200x200.jpg",
-          "https://vul76.web.app/html/games/other/master-chess/index.html",
+          "https://vulen76.web.app/games/other/master-chess/sprites/200x200.jpg",
+          "https://vulen76.web.app/games/other/master-chess/index.html",
           ""
         ],
         [
           "Mini Golf World",
-          "https://vul76.web.app/html/games/other/mini-golf-world/sprites/200x200.jpg",
-          "https://vul76.web.app/html/games/other/mini-golf-world/index.html",
+          "https://vulen76.web.app/games/other/mini-golf-world/sprites/200x200.jpg",
+          "https://vulen76.web.app/games/other/mini-golf-world/index.html",
           ""
         ],
         [
           "Janissary Battles",
-          "https://vul76.web.app/html/games/other/janissary-battles/icons/janissary-battles-512x512.png",
-          "https://vul76.web.app/html/games/other/janissary-battles/index.html",
+          "https://vulen76.web.app/games/other/janissary-battles/icons/janissary-battles-512x512.png",
+          "https://vulen76.web.app/games/other/janissary-battles/index.html",
           ""
         ],
         [
           "4 Colors Monument Edition",
-          "https://vul76.web.app/html/games/other/4-colors/sprites/200x200.jpg",
-          "https://vul76.web.app/html/games/other/4-colors/index.html",
+          "https://vulen76.web.app/games/other/4-colors/sprites/200x200.jpg",
+          "https://vulen76.web.app/games/other/4-colors/index.html",
           ""
         ],
         [
           "Monkey Mart",
-          "https://vul76.web.app/html/games/other/monkey-mart/logo.png",
-          "https://vul76.web.app/html/games/other/monkey-mart/index.html",
+          "https://vulen76.web.app/games/other/monkey-mart/logo.png",
+          "https://vulen76.web.app/games/other/monkey-mart/index.html",
           ""
         ],
         [
           "Tetris Advance",
-          "https://vul76.web.app/html/games/other/tetr.js/tetr_js/icons/favicon.ico",
-          "https://vul76.web.app/html/games/other/tetr.js/index.html",
+          "https://vulen76.web.app/games/other/tetr.js/tetr_js/icons/favicon.ico",
+          "https://vulen76.web.app/games/other/tetr.js/index.html",
           "Tetris but more advance named Tetr.js Enchanced"
         ]
       ]

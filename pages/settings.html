@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 
 <head>
   <meta charset="utf-8" />
@@ -18,8 +17,8 @@
   <meta content="https://irv77.github.io/assets/images/logos/favicon.png" property="og:image">
   <meta content="#9a1508" data-react-helmet="true" name="theme-color">
 </head>
-
 <body>
+  <div id="preloader"></div>
   <div class="faded"></div>
   <div class="noised"></div>
   <div class="content">
@@ -77,8 +76,8 @@
           </div>
           <br>
           <div class="info">
-            <button class="settings-button" onclick="panOn()">Enable</button>
-            <button class="settings-button active" onclick="panOff()">Disable</button>
+            <button id="panicon" class="settings-button" onclick="panOn()">Enable</button>
+            <button id="panicoff" class="settings-button" onclick="panOff()">Disable</button>
           </div>
         </div>
         <div class="settings-content">
@@ -107,12 +106,8 @@
     <div class="copy"></div>
   </div>
   <!--Made By IRV77-->
-  <script src="/js/cloak.js"></script>
   <script src="/js/aboutblank.js"></script>
   <script src="/js/settings.js"></script>
   <script src="/js/index.js"></script>
-  <script src="/js/theme.js"></script>
-  <script src="/js/navbar.js"></script>
+  <script src="/js/main.js"></script>
 </body>
-
-</html>
