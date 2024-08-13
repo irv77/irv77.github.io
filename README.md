@@ -8,7 +8,7 @@
 <hr>
 
  ## Current Version
-[__v2.00.4__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
+[__v2.00.5__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
 
 <hr>
 

@@ -28,7 +28,7 @@ const setTitle = (title = "") => {
 
 const setFavicon = (url) => {
   const faviconLink = document.querySelector("link[rel='icon']");
-  
+
   // Try to load the URL as an image
   const img = new Image();
   img.src = url;
@@ -89,26 +89,28 @@ function panOff() {
 }
 
 // Change panic text activation
-  const panicOff = document.getElementById("panicoff");
-  const panicOn = document.getElementById("panicon");
+const panicOff = document.getElementById("panicoff");
+const panicOn = document.getElementById("panicon");
 
-  if (panicOff) {
-    if (localStorage.getItem("panic") === "on") {
-      panicOff.classList.remove("active");
-      panicOn.classList.add("active");
-    }
-    if (localStorage.getItem("panic") === "off") {
-      panicOn.classList.remove("active");
-      panicOff.classList.add("active");
-    }
+if (panicOff) {
+  if (localStorage.getItem("panic") === "on") {
+    panicOff.classList.remove("active");
+    panicOn.classList.add("active");
   }
-
-  let selectedPanic = localStorage.getItem("panic");
-
-  if (!selectedPanic) {
-    localStorage.setItem("panic", "off");
+  if (localStorage.getItem("panic") === "off") {
+    panicOn.classList.remove("active");
     panicOff.classList.add("active");
   }
+}
+
+let selectedPanic = localStorage.getItem("panic");
+
+if (!selectedPanic) {
+  localStorage.setItem("panic", "off");
+  if (panicOff) {
+    panicOff.classList.add("active");
+  }
+}
 
 // Check if panic mode is enabled
 if (localStorage.getItem("panic") === "on") {
