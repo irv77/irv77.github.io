@@ -33,7 +33,7 @@ if (loading) {
     <div>
       <div class="weblogo"></div>
 	  <div class="info" style="align-items: center;">
-      	<div class="loadwheel"></div><h1 class="loading">Loading...</h1>
+      	<div class="loadwheel"></div><h4 class="loading">Loading...</h4>
 	  </div>
     </div>
 	`;

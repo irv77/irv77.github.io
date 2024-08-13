@@ -230,6 +230,7 @@ body[data-theme="hub"] {
 	font-style: italic;
 	margin: 0 1vw;
 	text-align: center;
+  text-shadow: var(--theme) 3px 0 10px;
 }
 
 @keyframes spin {

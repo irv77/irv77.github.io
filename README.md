@@ -8,7 +8,7 @@
 <hr>
 
  ## Current Version
-[__v2.00.3__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
+[__v2.00.4__ - August 11, 2024](https://irv77.github.io/pages/changelog.html)
 
 <hr>
 
@@ -31,7 +31,7 @@
 
 - Vulen Corp | [__Discord__](https://discord.gg/xuu8TnSY4b)
 
-- Outdated Website | [__Vul77__](https://vul77.web.app)
+- Github Website | [__Vul77__](https://irv77.github.io)
 
 <hr>
 

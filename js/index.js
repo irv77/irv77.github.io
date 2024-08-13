@@ -64,11 +64,13 @@ const resetTab = () => {
   console.clear();
 };
 
-if (tabData.title) {
+const settingsPage = document.getElementById("buttons-container");
+
+if (settingsPage && tabData.title) {
   document.getElementById("title").value = tabData.title;
 }
 
-if (tabData.icon) {
+if (settingsPage && tabData.icon) {
   document.getElementById("icon").value = tabData.icon;
 }
 
@@ -91,7 +93,7 @@ function panOff() {
   const panicOn = document.getElementById("panicon");
 
   if (panicOff) {
-    if (localStorage.getItem("panic") === "on" || document.body.getAttribute("panic") === "on") {
+    if (localStorage.getItem("panic") === "on") {
       panicOff.classList.remove("active");
       panicOn.classList.add("active");
     }
@@ -101,6 +103,12 @@ function panOff() {
     }
   }
 
+  let selectedPanic = localStorage.getItem("panic");
+
+  if (!selectedPanic) {
+    localStorage.setItem("panic", "off");
+    panicOff.classList.add("active");
+  }
 
 // Check if panic mode is enabled
 if (localStorage.getItem("panic") === "on") {
