@@ -170,7 +170,6 @@ h1#title {
 /* Updates CSS */
 
 .recent-upd-container {
-	min-height: 12vw;
 	width: 100%;
 }
 
@@ -218,6 +217,7 @@ h1#title {
 	display: flex;
     align-items: center;
     justify-content: flex-end;
+	margin: 2vw 0;
 }
 
 .changelog-entry ul {
