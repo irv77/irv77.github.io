@@ -39,7 +39,8 @@ p {
   width: 40%;
 }
 
-button {
+button,
+.import-button {
   background-color: var(--background-secondary);
   border-radius: 1vw;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -52,7 +53,8 @@ button {
   padding: 1vw 3vw;
 }
 
-button:hover {
+button:hover,
+.import-button:hover {
   transform: scale(1.05);
 }
 
@@ -274,6 +276,7 @@ span#sub {
 }
 
 .extras .inprogress {
+  border-radius: 1vw;
   height: 6.5vw;
   margin: 1.5vw;
   width: 40vw;
@@ -322,6 +325,7 @@ span#sub {
   margin: 0.5vw;
   padding: 0.5vw 2vw;
   width: 90%;
+  text-align: center;
 }
 
 .presets {
@@ -364,6 +368,15 @@ input::placeholder {
 button.active {
   color: var(--theme-secondary);
   text-shadow: var(--theme) 1px 0 12px;
+}
+
+.inprogress.delete {
+  background-position: center;
+  border-radius: 1vw;
+  height: 2.4vw;
+  margin: 0.5vw;
+  padding: 0.5vw 2vw;
+  width: 85.55%;
 }
 
 .coverup {

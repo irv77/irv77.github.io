@@ -18,7 +18,7 @@ h3 {
 	font-size: 2.5vw;
 }
 
-button {
+button, .import-button {
 	border-radius: 1.5vw;
 	font-size: 3.5vw;
 }
@@ -247,6 +247,11 @@ input {
 	height: 4vw;
 	width: 4vw;
 }
+
+.inprogress.delete {
+	border-radius: 1.5vw;
+	height: 4vw;
+  }
 
 /* 404 CSS */
 

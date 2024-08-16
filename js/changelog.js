@@ -12,6 +12,20 @@ const logArr = [
   },
   **/
   {
+    version: `2.00.9`,
+    date: `August 16, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added import/export game data!`
+      },
+      {
+        label: [`fix`],
+        detail: `Fixed more bugs`
+      }
+    ]
+  },
+  {
     version: `2.00.3`,
     date: `August 13, 2024 `,
     list: [
