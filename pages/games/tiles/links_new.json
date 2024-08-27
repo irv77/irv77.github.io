@@ -4,6 +4,42 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "Banjo Kazooie",
+          "https://vulen76.web.app/games/other/webretro/thumb/banjoo.png",
+          "https://vulen76.web.app/games/other/webretro/index.html?core=autodetect&rom=banjoo.z64",
+          ""
+        ],
+        [
+          "Clear Vision Elite",
+          "https://vulen76.web.app/images/butgerty.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=clear-vision-elite.swf",
+          ""
+        ],
+        [
+          "Burger Tycoon",
+          "https://vulen76.web.app/images/butgerty.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=burger-tycoon.swf",
+          ""
+        ],
+        [
+          "Jacksmith",
+          "https://vulen76.web.app/images/jacks.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=jacksmith.swf",
+          ""
+        ],
+        [
+          "Donkey Kong",
+          "https://vulen76.web.app/images/dk.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=donkey-kong.swf",
+          ""
+        ],
+        [
+          "10 More Bullets",
+          "https://vulen76.web.app/games/other/10-more-bullets/images/logo.png",
+          "https://vulen76.web.app/games/other/10-more-bullets/index.html",
+          ""
+        ],
+        [
           "Five Nights at Freddy's Launcher",
           "https://vulen76.web.app/games/other/fnaf-launcher/images/logo.png",
           "https://vulen76.web.app/games/other/fnaf-launcher/index.html",

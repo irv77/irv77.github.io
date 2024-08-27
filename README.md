@@ -8,7 +8,7 @@
 <hr>
 
  ## Current Version
-[__v2.01.0__ - August 13, 2024](https://vulen77.web.app/pages/changelog.html)
+[__v2.01.1__ - August 26, 2024](https://vulen77.web.app/pages/changelog.html)
 
 <hr>
 

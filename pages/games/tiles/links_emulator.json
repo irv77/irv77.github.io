@@ -4,13 +4,19 @@
       "title": "Emulator Games",
       "games": [
         [
-          "Batman ",
+          "Banjo Kazooie",
+          "https://vulen76.web.app/games/other/webretro/thumb/banjoo.png",
+          "https://vulen76.web.app/games/other/webretro/index.html?core=autodetect&rom=banjoo.z64",
+          ""
+        ],
+        [
+          "Batman",
           "https://vulen76.web.app/games/other/example/bm.jpg",
           "https://vulen76.web.app/games/other/example/batman.html",
           ""
         ],
         [
-          "Contra ",
+          "Contra",
           "https://vulen76.web.app/games/other/miscgame/cont.jpg",
           "https://vulen76.web.app/games/other/miscgame/contracool.html",
           ""
@@ -22,13 +28,13 @@
           "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
         ],
         [
-          "Double Dragon ",
+          "Double Dragon",
           "https://vulen76.web.app/games/other/miscgame/dd.jpg",
           "https://vulen76.web.app/games/other/miscgame/doubled.html",
           ""
         ],
         [
-          "Duck Tales ",
+          "Duck Tales",
           "https://vulen76.web.app/games/other/example/dt.png",
           "https://vulen76.web.app/games/other/example/ducktales.html",
           ""
@@ -46,7 +52,7 @@
           ""
         ],
         [
-          "Excite Bike ",
+          "Excite Bike",
           "https://vulen76.web.app/games/other/example/eb.jpg",
           "https://vulen76.web.app/games/other/example/excitebike.html",
           ""
@@ -64,7 +70,7 @@
           ""
         ],
         [
-          "Friday the 13th ",
+          "Friday the 13th",
           "https://vulen76.web.app/games/other/example/ft13.png",
           "https://vulen76.web.app/games/other/example/f13.html",
           ""
@@ -94,7 +100,7 @@
           ""
         ],
         [
-          "Mega Man 2 ",
+          "Mega Man 2",
           "https://vulen76.web.app/games/other/miscgame/mm2.jpg",
           "https://vulen76.web.app/games/other/miscgame/megamandos.html",
           ""
@@ -130,7 +136,7 @@
           ""
         ],
         [
-          "River City Ransom ",
+          "River City Ransom",
           "https://vulen76.web.app/games/other/example/rcr.jpg",
           "https://vulen76.web.app/games/other/example/rivercity.html",
           ""
@@ -142,19 +148,19 @@
           ""
         ],
         [
-          "Super Mario Bros. ",
+          "Super Mario Bros.",
           "https://vulen76.web.app/games/other/miscgame/sm.png",
           "https://vulen76.web.app/games/other/miscgame/mariones.html",
           ""
         ],
         [
-          "Super Mario Bros. 2 ",
+          "Super Mario Bros. 2",
           "https://vulen76.web.app/games/other/example/sm2.jpg",
           "https://vulen76.web.app/games/other/example/sm2.html",
           ""
         ],
         [
-          "Super Mario Bros. 3 ",
+          "Super Mario Bros. 3",
           "https://vulen76.web.app/games/other/example/sm3.jpg",
           "https://vulen76.web.app/games/other/example/sm3.html",
           ""
@@ -196,7 +202,7 @@
           "Super Street Fighter II Turbo[a] is a fighting game released for the arcades by Capcom in Japan on February 23, 1994, in North America on February 23 and March 26, 1994”."
         ],
         [
-          "The Legend of Zelda ",
+          "The Legend of Zelda",
           "https://vulen76.web.app/games/other/miscgame/zeld.png",
           "https://vulen76.web.app/games/other/miscgame/zeldanes.html",
           ""

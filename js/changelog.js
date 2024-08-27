@@ -12,6 +12,40 @@ const logArr = [
   },
   **/
   {
+    version: `2.01.1`,
+    date: `August 26, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added 10 More Bullets`
+      },
+      {
+        label: [`add`],
+        detail: `Added Donkey Kong`
+      },
+      {
+        label: [`add`],
+        detail: `Added Jacksmith`
+      },
+      {
+        label: [`add`],
+        detail: `Added Burger Tycoon`
+      },
+      {
+        label: [`add`],
+        detail: `Added Clear Vision Elite`
+      },
+      {
+        label: [`add`],
+        detail: `Added Banjo Kazooie`
+      },
+      {
+        label: [`fix`],
+        detail: `Small bug fixes`
+      }
+    ]
+  },
+  {
     version: `2.00.9`,
     date: `August 16, 2024 `,
     list: [

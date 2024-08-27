@@ -94,10 +94,22 @@
           "Bubble Shooter is a game where the goal is to clear the playing field by forming groups of three or more marbles of the same color. The game ends when the balls reach the bottom line of the screen. The more balls destroyed in one shot, the more points scored. A player wins when there are no balls remaining on the playing field."
         ],
         [
+          "Burger Tycoon",
+          "https://vulen76.web.app/images/butgerty.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=burger-tycoon.swf",
+          ""
+        ],
+        [
           "Cat Ninja",
           "https://vulen76.web.app/images/cn.jpg",
           "https://vulen76.web.app/games/flash/waflash/index.html?swf=catninja.swf",
           "Cat Ninja is one of our incredible Adventure Games in which you will be defeating other ninjas. Your character is a little blue cat who needs to avoid from deadly lasers and sharp objects as they might be dangerous. You can change the gravity in this game and it makes jumping and climbing the walls easier for you."
+        ],
+        [
+          "Clear Vision Elite",
+          "https://vulen76.web.app/images/butgerty.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=clear-vision-elite.swf",
+          ""
         ],
         [
           "Color Combat",
@@ -128,6 +140,12 @@
           "https://vulen76.web.app/images/dyc.jpg",
           "https://vulen76.web.app/games/flash/index.html?swf=102209_castle202c.swf",
           "Defend Your Castle is a series of video games developed by XGen Studios. The original version of Defend Your Castle is a Macromedia Flash-based browser game. It requires the player to kill all enemy units before they destroy the player's castle.Dragon Ball: Devolution is an unofficial fighting game in the Dragon Ball Series released for browsers. The game contains a massive roster of characters from all corners of the franchise, in an artstyle resembling Dragon Ball Z: Goku's Fierce Battle Story."
+        ],
+        [
+          "Donkey Kong",
+          "https://vulen76.web.app/images/dk.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=donkey-kong.swf",
+          ""
         ],
         [
           "Don't Whack Your Teacher",
@@ -284,6 +302,12 @@
           "https://vulen76.web.app/images/ib2.webp",
           "https://vulen76.web.app/games/flash/index.html?swf=interactivebuddy2.swf",
           "The sequel to Interactive Buddy! Interact with the buddy using many new items and weapons!"
+        ],
+        [
+          "Jacksmith",
+          "https://vulen76.web.app/images/jacks.png",
+          "https://vulen76.web.app/games/flash/index.html?swf=jacksmith.swf",
+          ""
         ],
         [
           "Johnny Rocketfingers 2",
@@ -690,6 +714,12 @@
           "10 Minutes Till Dawn",
           "https://vulen76.web.app/games/other/10mtd/splash.png",
           "https://vulen76.web.app/games/other/10mtd/index.html",
+          ""
+        ],
+        [
+          "10 More Bullets",
+          "https://vulen76.web.app/games/other/10-more-bullets/images/logo.png",
+          "https://vulen76.web.app/games/other/10-more-bullets/index.html",
           ""
         ],
         [
@@ -2217,13 +2247,19 @@
       "title": "Emulator Games",
       "games": [
         [
-          "Batman ",
+          "Banjo Kazooie",
+          "https://vulen76.web.app/games/other/webretro/thumb/banjoo.png",
+          "https://vulen76.web.app/games/other/webretro/index.html?core=autodetect&rom=banjoo.z64",
+          ""
+        ],
+        [
+          "Batman",
           "https://vulen76.web.app/games/other/example/bm.jpg",
           "https://vulen76.web.app/games/other/example/batman.html",
           ""
         ],
         [
-          "Contra ",
+          "Contra",
           "https://vulen76.web.app/games/other/miscgame/cont.jpg",
           "https://vulen76.web.app/games/other/miscgame/contracool.html",
           ""
@@ -2235,13 +2271,13 @@
           "Doom is a 1993 first-person shooter (FPS) game developed by id Software for MS-DOS. Players assume the role of a space marine, popularly known as Doomguy, fighting their way through hordes of invading demons from hell"
         ],
         [
-          "Double Dragon ",
+          "Double Dragon",
           "https://vulen76.web.app/games/other/miscgame/dd.jpg",
           "https://vulen76.web.app/games/other/miscgame/doubled.html",
           ""
         ],
         [
-          "Duck Tales ",
+          "Duck Tales",
           "https://vulen76.web.app/games/other/example/dt.png",
           "https://vulen76.web.app/games/other/example/ducktales.html",
           ""
@@ -2259,7 +2295,7 @@
           ""
         ],
         [
-          "Excite Bike ",
+          "Excite Bike",
           "https://vulen76.web.app/games/other/example/eb.jpg",
           "https://vulen76.web.app/games/other/example/excitebike.html",
           ""
@@ -2277,7 +2313,7 @@
           ""
         ],
         [
-          "Friday the 13th ",
+          "Friday the 13th",
           "https://vulen76.web.app/games/other/example/ft13.png",
           "https://vulen76.web.app/games/other/example/f13.html",
           ""
@@ -2307,7 +2343,7 @@
           ""
         ],
         [
-          "Mega Man 2 ",
+          "Mega Man 2",
           "https://vulen76.web.app/games/other/miscgame/mm2.jpg",
           "https://vulen76.web.app/games/other/miscgame/megamandos.html",
           ""
@@ -2343,7 +2379,7 @@
           ""
         ],
         [
-          "River City Ransom ",
+          "River City Ransom",
           "https://vulen76.web.app/games/other/example/rcr.jpg",
           "https://vulen76.web.app/games/other/example/rivercity.html",
           ""
@@ -2355,19 +2391,19 @@
           ""
         ],
         [
-          "Super Mario Bros. ",
+          "Super Mario Bros.",
           "https://vulen76.web.app/games/other/miscgame/sm.png",
           "https://vulen76.web.app/games/other/miscgame/mariones.html",
           ""
         ],
         [
-          "Super Mario Bros. 2 ",
+          "Super Mario Bros. 2",
           "https://vulen76.web.app/games/other/example/sm2.jpg",
           "https://vulen76.web.app/games/other/example/sm2.html",
           ""
         ],
         [
-          "Super Mario Bros. 3 ",
+          "Super Mario Bros. 3",
           "https://vulen76.web.app/games/other/example/sm3.jpg",
           "https://vulen76.web.app/games/other/example/sm3.html",
           ""
@@ -2409,7 +2445,7 @@
           "Super Street Fighter II Turbo[a] is a fighting game released for the arcades by Capcom in Japan on February 23, 1994, in North America on February 23 and March 26, 1994”."
         ],
         [
-          "The Legend of Zelda ",
+          "The Legend of Zelda",
           "https://vulen76.web.app/games/other/miscgame/zeld.png",
           "https://vulen76.web.app/games/other/miscgame/zeldanes.html",
           ""
