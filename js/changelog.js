@@ -12,6 +12,16 @@ const logArr = [
   },
   **/
   {
+    version: `2.01.3`,
+    date: `September 10, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added Fancade`
+      }
+    ]
+  },
+  {
     version: `2.01.1`,
     date: `August 26, 2024 `,
     list: [
