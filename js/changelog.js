@@ -12,8 +12,18 @@ const logArr = [
   },
   **/
   {
+    version: `2.01.6`,
+    date: `October 1, 2024 `,
+    list: [
+      {
+        label: [`remove`],
+        detail: `Removed waflash games to ruffle`
+      }
+    ]
+  },
+  {
     version: `2.01.5`,
-    date: `September 10, 2024 `,
+    date: `September 23, 2024 `,
     list: [
       {
         label: [`add`],
