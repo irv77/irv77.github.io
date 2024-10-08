@@ -12,7 +12,7 @@ const logArr = [
   },
   **/
   {
-    version: `2.01.9`,
+    version: `2.02.0`,
     date: `October 7, 2024 `,
     list: [
       {
@@ -30,6 +30,10 @@ const logArr = [
       {
         label: [`system`],
         detail: `Changed default theme to halloween theme`
+      },
+      {
+        label: [`remove`],
+        detail: `Removed LioProxy`
       }
     ]
   },

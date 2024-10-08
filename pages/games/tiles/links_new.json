@@ -4,6 +4,12 @@
       "title": "New/Updated Games!",
       "games": [
         [
+          "NetSpate",
+          "https://vulen77.web.app/assets/images/logos/netspate.png",
+          "https://netspate.web.app/pages/home.html",
+          ""
+        ],
+        [
           "Protektor",
           "https://vulen76.web.app/games/other/protektor/logo.png",
           "https://vulen76.web.app/games/other/protektor/index.html",
@@ -349,12 +355,6 @@
           "Granny",
           "https://vulen76.web.app/games/other/granny/logo.png",
           "https://vulen76.web.app/games/other/granny/index.html",
-          ""
-        ],
-        [
-          "NetSpate",
-          "https://vulen76.web.app/images/netspate.png",
-          "https://netspate.netlify.app/home.html",
           ""
         ],
         [
