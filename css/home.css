@@ -70,12 +70,24 @@ h1#title {
 	cursor: pointer;
 	font-family: "Bam";
 	font-size: 6vh;
+	height: fit-content;
 	margin-top: 12vh;
 	padding: 1vw 4vw;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: var(--text-secondary) 1px 0 12px;
 	transition: transform 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.play-button.small {
+	background: var(--theme-secondary) url(/assets/images/overlays/overlay-large.png) no-repeat;
+	background-size: cover;
+	color: var(--text-secondary);
+	font-size: 3.5vh;
+	margin: 0 3vh;
+	margin-top: 12vh;
+	padding: 0.75vw 2.5vw;
+	text-shadow: var(--text) 1px 0 12px;
 }
 
 .slanted-button:hover {

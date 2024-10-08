@@ -49,8 +49,13 @@ h1#title {
 }
 
 .play-button {
-	font-size: 9vw;
+	font-size: 7vw;
 	padding: 2vw 6vw;
+}
+
+.play-button.small {
+	font-size: 3vw;
+	padding: 1vw 4vw;
 }
 
 .recent-upd-container .changelog-entry {

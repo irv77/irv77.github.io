@@ -12,6 +12,28 @@ const logArr = [
   },
   **/
   {
+    version: `2.01.8`,
+    date: `October 7, 2024 `,
+    list: [
+      {
+        label: [`add`],
+        detail: `Added Soul Jumper`
+      },
+      {
+        label: [`add`],
+        detail: `Added Protektor`
+      },
+      {
+        label: [`update`],
+        detail: `Updated NetSpate!`
+      },
+      {
+        label: [`system`],
+        detail: `Changed default theme to halloween theme`
+      }
+    ]
+  },
+  {
     version: `2.01.7`,
     date: `October 1, 2024 `,
     list: [

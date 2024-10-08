@@ -4,6 +4,18 @@
 /* General CSS */
 
 body[data-theme="default"] {
+  --background: #4a270dc9;
+  --background-secondary: #79400dab;
+  --home: url(/assets/images/halloween.png);
+  --page: url(/assets/images/halloween.png);
+  --text: #d7b90fd2;
+  --text-secondary: #b59b23d1;
+  --theme: #f16e0ac2;
+  --theme-secondary: #5ed94383;
+  --theme-tertiary: #7d0ed1a7;
+}
+
+body[data-theme="default2"] {
   --background: #1d0e1a;
   --background-secondary: #600008;
   --home: linear-gradient(to bottom, var(--background), var(--background-secondary));
