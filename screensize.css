@@ -1,0 +1,325 @@
+/* NAVBAR CSS */
+
+nav {
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+nav .irv {
+    font-size: 4.5vw;
+}
+
+.navbar .navbutton {
+    display: none;
+}
+
+.navbar .navtext {
+    gap: 1.5vw;
+}
+
+.navbar .navmenu {
+    display: block;
+}
+
+.navbar .mobilemenu .navbutton {
+    display: flex;
+}
+
+.mobilemenu .navlist {
+    position: relative;
+    display: flex;
+    margin-top: 1vw;
+    font-size: 5.25vw;
+    background: transparent;
+}
+
+/* CONTENT DIV CSS */
+
+.error {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0.75vw) saturate(0.25) brightness(0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    animation: fade_back 31s;
+    transition: 0.5s all;
+    user-select: none;
+}
+
+.error h1 {
+    margin: 0;
+    padding: 0.5vw 1.5vw;
+    font-size: 2.25vw;
+    width: fit-content;
+    background-color: rgba(33, 0, 0, 0.75);
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    color: #ffdddd;
+    text-align: center;
+}
+
+/* ABOUT ME CSS */
+
+.aboutme {
+    border-radius: 3vw;
+}
+
+.aboutme img {
+    height: 9vh;
+}
+
+.aboutme h1 {
+    font-size: 3.5vw;
+}
+
+.aboutme svg {
+    width: 4vw;
+    border-radius: 4vw;
+}
+
+.aboutme h2 {
+    font-size: 2.25vw;
+    font-weight: lighter;
+    margin: 0;
+}
+
+/* LAST UPDATED PROJECT CSS */
+
+.lastupdated {
+    border-radius: 3vw;
+    padding: 2vw;
+    width: 85vw;
+}
+
+.lastupdated h5 {
+    margin: 0 0.5vw 1vw 0;
+    font-size: 2.75vw;
+}
+
+.lastupdated .updatediv {
+    display: flex;
+    flex-direction: column;
+}
+
+.lastupdated img {
+    height: 20vh;
+}
+
+.lastupdated img.logo {
+    height: 12vh;
+}
+
+.lastupdated h1 {
+    font-size: 3.5vw;
+    margin: 1vw 0;
+}
+
+.lastupdated h2 {
+    font-size: 2.25vw;
+}
+
+.lastupdated .projectnotes svg {
+    height: 2.5vw;
+}
+
+.lastupdated .projectnotes h4 {
+    font-size: 2.5vw;
+}
+
+.lastupdated h3 {
+    font-size: 2.25vw;
+}
+
+.lastupdated .updatetime {
+    margin-top: -1vw;
+}
+
+.lastupdated .updatetime svg {
+    height: 2vw;
+}
+
+.lastupdated .updatetime h6 {
+    font-size: 2vw;
+}
+
+/* ALL PROJECTS CSS */
+
+.main-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    padding: 2vw 2vw 6vw;
+}
+
+.main-options .project {
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width: 37vw;
+    border-radius: 3vw;
+}
+
+.main-options .project img {
+    height: 8.5vh;
+}
+
+.main-options .project h1 {
+    font-size: 2.75vw;
+    text-align: center;
+}
+
+.main-options .project h2 {
+    font-size: 2.25vw;
+    text-align: center;
+}
+
+.main-options .project h3 {
+    font-size: 2vw;
+}
+
+/* PROJECT DETAILS PAGE CSS */
+
+.projectdetails {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(0.5vw) brightness(0.75);
+    padding-top: 5vw;
+    width: 100vw;
+    height: -webkit-fill-available;
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+.exit {
+    position: relative;
+    height: 4.25vw;
+}
+
+.projectdetails .headerimg {
+    width: 86.75vw;
+    border-radius: 8vw 8vw 0 0;
+    margin-bottom: -1vw;
+}
+
+.projectdetails .headerimg img {
+    border-radius: 3.5vw 3.5vw 0 0;
+    height: 15vh;
+}
+
+.projectdetails .headerimg::after {
+  height: 15vh;
+  border-radius: 3.5vw 3.5vw 0 0;
+  top: 5vw;
+  width: 86.75vw;
+}
+
+.projectdetails .header {
+    width: 82vw;
+    gap: 2vw;
+    padding: 2.5vw;
+    border-radius: 0 0 3.5vw 3.5vw;
+}
+
+.projectdetails .header img {
+    height: 6vh;
+}
+
+.projectdetails .header h1 {
+    font-size: 3.5vw;
+}
+
+.projectdetails .header h2 {
+    font-size: 2.25vw;
+}
+
+.projectdetails .header h3 {
+    font-size: 2vw;
+}
+
+.projectdetails .links {
+    width: 82vw;
+    gap: 3vw;
+    padding: 1vw 1.5vw;
+    margin: 1.5vw 0;
+    border-radius: 2.5vw;
+}
+
+.projectdetails .links h1 {
+    margin: 0;
+    position: absolute;
+    left: 2.5vw;
+    font-size: 3.25vw;
+}
+
+.projectdetails .links div {
+    gap: 0.5vw;
+    padding: 0.5vw 2.5vw;
+    border-radius: 2vw;
+}
+
+.projectdetails .links svg {
+    height: 2.5vw;
+}
+
+.projectdetails .links h2 {
+    font-size: 2.5vw;
+}
+
+.projectdetails .githubdiv {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5vw;
+    margin: 0.25vw 0px 3vw;
+}
+
+.projectdetails .preview {
+    width: 82vw;
+    padding: 1.5vw;
+    border-radius: 3.5vw;
+}
+
+.projectdetails .preview h1 {
+    font-size: 3.25vw;
+}
+
+.projectdetails .githubinfo {
+    width: 82vw;
+    gap: 1.5vw;
+    border-radius: 3.5vw;
+}
+
+.projectdetails .githubinfo.fullscreen {
+    width: 82vw;
+}
+
+.projectdetails .githubinfo h1 {
+    font-size: 3.25vw;
+}
+
+.projectdetails .githubinfo div {
+    gap: 1vw;
+}
+
+.projectdetails .githubinfo svg {
+    height: 2.75vw;
+    fill: grey;
+}
+
+.projectdetails .githubinfo h2 {
+    font-size: 2.75vw;
+}
+
+/* COPYRIGHT CSS */
+
+p {
+    font-size: 2vw;
+}
+
+.projectdetails p {
+    width: 85vw;
+    font-size: 2.25vw;
+}

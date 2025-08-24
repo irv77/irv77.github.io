@@ -1,0 +1,134 @@
+[
+    {
+        "title": "Akura Myth",
+        "description": "Secondary gaming website for Kruated Phear",
+        "version": "v1.300",
+        "id": "AkuraMyth",
+        "link": "https://akura.web.app/",
+        "cover": "assets/projects/logos/akura-myth.png",
+        "github": false,
+        "type": "gaming",
+        "created": "2025-03-09T12:00:00Z",
+        "updated": "2025-04-01T12:00:00Z"
+    },
+    {
+        "title": "Ampler Launcher",
+        "description": "A minecraft themed launcher for Eaglercraft!",
+        "version": "v1.4.00",
+        "id": "AmplerLauncher",
+        "link": "https://irv77.github.io/AmplerLauncher/",
+        "cover": "assets/projects/logos/ampler-launcher.png",
+        "github": true,
+        "type": "eaglercraft"
+    },
+    {
+        "title": "Eagler Console",
+        "description": "A script to add controller support to eaglercraft! (Proof of concept)",
+        "version": "v1.2",
+        "id": "EaglerConsole",
+        "link": "https://irv77.github.io/EaglerConsole/demo/",
+        "cover": "assets/projects/logos/eagler-console.png",
+        "github": true,
+        "type": "eaglercraft",
+        "download": "https://github.com/irv77/EaglerConsole/raw/refs/heads/main/eaglerconsole.user.js"
+    },
+    {
+        "title": "Eagler Pocket Mobile",
+        "description": "A branch off of FlamedDogo99's eaglercraft mobile UI",
+        "version": "v1.40",
+        "id": "EaglerPocketMobile",
+        "link": "https://irv77.github.io/EaglerPocketMobile/demo/",
+        "cover": "assets/projects/logos/eagler-pocket-mobile.png",
+        "github": true,
+        "type": "eaglercraft",
+        "download": "https://github.com/irv77/EaglerPocketMobile/raw/refs/heads/main/eaglerpocketmobile.user.js"
+    },
+    {
+        "title": "Five Nights at Freddy's Launcher",
+        "description": "A custom made fnaf launcher of the core games!",
+        "version": "v1.2.09",
+        "id": "FnafLauncher",
+        "link": "https://irv77.github.io/FnafLauncher/",
+        "cover": "assets/projects/logos/fnaf-launcher.png",
+        "github": true,
+        "type": "fnaf"
+    },
+    {
+        "title": "HD FNAF Games HTML",
+        "description": "All clickteam fnaf games in HTML5!",
+        "version": "v3.1",
+        "id": "hd_fnaf",
+        "link": "https://irv77.github.io/hd_fnaf/",
+        "cover": "assets/projects/logos/hd-fnaf.png",
+        "github": true,
+        "type": "fnaf"
+    },
+    {
+        "title": "KPD>_",
+        "description": "Root Directory of my gaming websites!",
+        "version": "v1.300",
+        "id": "KPD",
+        "link": "https://kpd76.web.app/boot.directory.html",
+        "cover": "assets/projects/logos/kpd.png",
+        "github": false,
+        "type": "gaming",
+        "created": "2025-02-04T12:00:00Z",
+        "updated": "2025-03-10T12:00:00Z"
+    },
+    {
+        "title": "Kruated Phear",
+        "description": "Personal huge gaming website made in early 2024.",
+        "version": "v3.02.4",
+        "id": "KruatedPhear",
+        "link": "https://vulen77.global.ssl.fastly.net/",
+        "cover": "assets/projects/logos/kruated-phear.png",
+        "github": true,
+        "type": "gaming",
+        "created": "2024-01-29T12:00:00Z"
+    },
+    {
+        "title": "Little Lizard Hello Neighbor Map",
+        "description": "Hello Neighbor map recreation used by Little Lizard.",
+        "version": "v1.3",
+        "id": "LLneighbor",
+        "link": "https://www.planetminecraft.com/project/little-lizard-hello-neighbor-map/",
+        "cover": "assets/projects/logos/ll-hello-neighbor.png",
+        "github": false,
+        "type": "other",
+        "created": "2024-11-28T12:00:00Z",
+        "updated": "2025-05-11T12:00:00Z"
+    },
+    {
+        "title": "NetSpate",
+        "description": "A small movie/tv show website.",
+        "version": "v1.2",
+        "id": "NetSpate",
+        "link": "https://netspate.web.app/",
+        "cover": "assets/projects/logos/netspate.png",
+        "github": false,
+        "type": "other",
+        "created": "2024-03-31T12:00:00Z",
+        "updated": "2024-10-06T12:00:00Z"
+    },
+    {
+        "title": "Xbox 360 UI",
+        "description": "A small recreation of the Xbox 360 Metro UI in HTML.",
+        "version": "v1.0",
+        "id": "Xbox360UI",
+        "link": "https://irv77.github.io/Xbox360UI/",
+        "cover": "assets/projects/logos/xbox-360-ui.png",
+        "github": true,
+        "type": "other"
+    },
+    {
+        "title": "Hidden Projects",
+        "description": "There's more public ones. But I'm not gonna mention them.",
+        "version": "???",
+        "id": "Hidden",
+        "link": "https://irv77.github.io/",
+        "cover": "assets/projects/logos/hidden.png",
+        "github": false,
+        "type": "other",
+        "created": "2021-11-01T12:00:00Z"
+    }
+]
