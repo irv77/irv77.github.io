@@ -18,7 +18,7 @@ nav .irv {
 }
 
 .navbar .navmenu {
-    display: block;
+    display: flex;
 }
 
 .navbar .mobilemenu .navbutton {
@@ -29,7 +29,7 @@ nav .irv {
     position: relative;
     display: flex;
     margin-top: 1vw;
-    font-size: 5.25vw;
+    font-size: 2vh;
     background: transparent;
 }
 

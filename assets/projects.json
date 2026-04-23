@@ -14,7 +14,7 @@
     {
         "title": "Ampler Launcher",
         "description": "A minecraft themed launcher for Eaglercraft!",
-        "version": "v1.4.00",
+        "version": "v1.5.00",
         "id": "AmplerLauncher",
         "link": "https://irv77.github.io/AmplerLauncher/",
         "cover": "assets/projects/logos/ampler-launcher.png",
@@ -22,9 +22,19 @@
         "type": "eaglercraft"
     },
     {
+        "title": "Eagler Block Bounds Tool",
+        "description": "Simple tool for converting blockbench hitboxes to eaglercraft.",
+        "version": "v1.0",
+        "id": "EaglerBlockBounds",
+        "link": "https://eaglerblockbounds.web.app/",
+        "cover": "assets/projects/logos/eagler-block-bounds.png",
+        "github": true,
+        "type": "eaglercraft"
+    },
+    {
         "title": "Eagler Console",
         "description": "A script to add controller support to eaglercraft! (Proof of concept)",
-        "version": "v1.2",
+        "version": "v1.3",
         "id": "EaglerConsole",
         "link": "https://irv77.github.io/EaglerConsole/demo/",
         "cover": "assets/projects/logos/eagler-console.png",
@@ -109,6 +119,18 @@
         "type": "other",
         "created": "2024-03-31T12:00:00Z",
         "updated": "2024-10-06T12:00:00Z"
+    },
+    {
+        "title": "SpongeBob SquarePants DLC",
+        "description": "Custom Made Minecraft Legacy Edition DLC",
+        "version": "v1.0",
+        "id": "SpongeBobDLC",
+        "link": "https://github.com/LCE-Hub/LCE-Workshop/tree/main/spongebob-squarepants/",
+        "cover": "assets/projects/logos/spongebob-squarepants.png",
+        "github": false,
+        "type": "other",
+        "created": "2026-04-22T12:00:00Z",
+        "download": "https://github.com/LCE-Hub/LCE-Workshop/tree/main/spongebob-squarepants/Spongebob-Squarepants.zip"
     },
     {
         "title": "Xbox 360 UI",
